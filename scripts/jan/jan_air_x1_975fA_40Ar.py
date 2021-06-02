@@ -15,8 +15,8 @@ def main():
     gosub('jan:PrepareForAirShotExpansion')
     gosub('common:ExpandPipette2')
     close(name="L", description="Microbone to Minibone")
-    close(name="K", description="Microbone to Getter NP-10C")
-    close(name="M", description="Microbone to Getter NP-10H")
+    #close(name="K", description="Microbone to Getter NP-10C")
+    #close(name="M", description="Microbone to Getter NP-10H")
     sleep(duration=3.0)
     
  
@@ -45,5 +45,5 @@ def main():
 #===============================================================================
 def main():
     info('Pumping spectrometer')
-    open(name='O')
+    open(name='O', cancel_on_failed_actuation=False)
     
