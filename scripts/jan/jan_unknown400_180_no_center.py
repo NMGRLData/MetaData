@@ -3,7 +3,7 @@
 baseline:
   after: true
   before: false
-  counts: 180
+  counts: 90
   detector: H1
   mass: 34.2
   settling_time: 20.0
