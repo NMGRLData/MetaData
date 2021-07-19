@@ -7,7 +7,7 @@ eqtime: 30
 
 def main():
     info('Felix CO2 analysis')
-    gosub('felix:WaitForCO2Access') 
+    #gosub('felix:WaitForCO2Access') 
     gosub('felix:PrepareForCO2Analysis')
     
     set_motor('beam',beam_diameter)
@@ -19,9 +19,11 @@ def main():
         during a multiple position analysis
         '''
         close(description='Bone to Turbo')
-        close('A')
-        close('C')
+        #close('T')
+        sleep(2)
         open('F')
+        sleep(2)
+        close('C')
         numPositions=len(position)
         
         sleep(duration*max(1,numPositions))
@@ -91,5 +93,5 @@ def main():
 #===============================================================================
 def main():
 	info('Pumping spectrometer')
-	open(name='V')
+	open(name='V', cancel_on_failed_actuation=False)
 	
