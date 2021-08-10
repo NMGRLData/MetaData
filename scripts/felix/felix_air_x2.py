@@ -12,9 +12,9 @@ def main():
     gosub('felix:PrepareForAirShot')
     
     #open(name='N')
-    open(name='Q')
-    open(name='D')
-    #open(name='B')
+    close(name='Q')
+    close(name='D')
+    close(name='B')
     
     gosub('common:EvacPipette2')
     gosub('common:FillPipette2')
