@@ -33,7 +33,7 @@ def main():
 
     #close(name='B')
     close(name='Q')
-    close(name='E')
+    #close(name='E')
     #close(name='D')
     #close(name='N')
     close(description='Outer Pipette 2')
