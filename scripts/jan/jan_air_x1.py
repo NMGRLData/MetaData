@@ -11,8 +11,14 @@ def main():
     gosub('jan:PrepareForAirShot')
     gosub('jan:EvacPipette2')
     gosub('common:FillPipette2')
+    close(name="M", description="Microbone to Getter NP-10H")
+    sleep(duration=3.0)
     gosub('jan:PrepareForAirShotExpansion')
     gosub('common:ExpandPipette2')
+    close(name="T", description="Microbone to CO2 Laser")
+    close(name="L", description="Microbone to Minibone")
+    sleep(duration=2.0)
+
     
 
  
