@@ -14,7 +14,7 @@ equilibration:
   inlet_delay: 3
   outlet: O
   use_extraction_eqtime: true
-  post_equilibration_delay: 0
+  post_equilibration_delay: 3
 multicollect:
   counts: 280
   detector: H1
