@@ -8,9 +8,9 @@ def main():
     info('Jan CO2 laser analysis')
     gosub('jan:WaitForCO2Access')
     gosub('jan:PrepareForCO2Analysis')
-    sleep(duration=2.0)
-    close(name="M", description="Microbone to Getter NP-10H")
-    sleep(duration=2.0)
+    #sleep(duration=2.0)
+    #close(name="M", description="Microbone to Getter NP-10H")
+    #sleep(duration=2.0)
     gosub('jan:CO2Analysis')
 
 #===============================================================================
