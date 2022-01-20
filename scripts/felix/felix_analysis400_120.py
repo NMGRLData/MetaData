@@ -25,7 +25,7 @@ peakcenter:
   detectors:
   - H1
   - L2(CDD)
-  isotope: Ar40
+  isotope: Ar36
   integration_time: 1.048576
 peakhop:
   hops_name: ''
