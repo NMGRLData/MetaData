@@ -91,7 +91,8 @@ def main():
             settling_time = 60
         
         baselines(ncounts=mx.baseline.counts,mass=mx.baseline.mass, detector=mx.baseline.detector, 
-                  settling_time=mx.baseline.settling_time)
+                  settling_time=settling_time)
+                  
     if mx.peakcenter.after:
         activate_detectors(*mx.peakcenter.detectors, **{'peak_center':True})
         peak_center(detector=mx.peakcenter.detector,isotope=mx.peakcenter.isotope,
