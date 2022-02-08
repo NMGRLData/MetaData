@@ -80,6 +80,7 @@ def main():
     
     if mx.baseline.after:
         # setup your dynamic baseline conditions here
+        settling_time = mx.baseline.settling_time
         ar40intensity = get_intensity('H1')
         if ar40intensity < 100:
             settling_time = 5
