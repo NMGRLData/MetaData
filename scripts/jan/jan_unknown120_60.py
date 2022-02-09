@@ -6,7 +6,7 @@ baseline:
   counts: 60
   detector: H1
   mass: 34.2
-  settling_time: 10
+  settling_time: 30
 default_fits: nominal_linear
 equilibration:
   eqtime: 1.0
