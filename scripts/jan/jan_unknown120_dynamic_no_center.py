@@ -6,7 +6,7 @@ baseline:
   counts: 30
   detector: H1
   mass: 34.2
-  settling_time: 15
+  settling_time: 25
 default_fits: nominal_linear
 equilibration:
   eqtime: 1.0
@@ -81,11 +81,11 @@ def main():
         # setup your dynamic baseline conditions here
         ar40intensity = get_intensity('H1')
         if ar40intensity < 100:
-            settling_time = 5
-        elif ar40intensity < 300:
             settling_time = 7
-        elif ar40intensity < 700:
+        elif ar40intensity < 300:
             settling_time = 10
+        elif ar40intensity < 700:
+            settling_time = 15
         elif ar40intensity > 5000:
             settling_time = 60
         
