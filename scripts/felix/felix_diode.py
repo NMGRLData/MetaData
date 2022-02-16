@@ -41,16 +41,17 @@ def main():
         position is always a list even if only one hole is specified
         '''
         enable()
-        for pi in position:
-            ''' 
-            position the laser at pi, pi can be an holenumber or (x,y)
-            '''
-            move_to_position(pi)
-            do_extraction()
-            if disable_between_positions:
-                extract(0)
-        info('Diode laser disabled.')
-        disable()
+        with video_recording(f'{load_identifier}/{run_identifier}'):
+            for pi in position:
+                ''' 
+                position the laser at pi, pi can be an holenumber or (x,y)
+                '''
+                move_to_position(pi)
+                do_extraction()
+                if disable_between_positions:
+                    extract(0)
+            info('Diode laser disabled.')
+            disable()
       
     gosub('felix:EquilibrateThenIsolateDiodeColdfinger')    
     
