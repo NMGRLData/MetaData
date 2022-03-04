@@ -50,17 +50,22 @@ def main():
         this is the most generic way to move and fire the laser
         position is always a list even if only one hole is specified
         '''
-        enable()
-        for pi in position:
-            ''' 
-            position the laser at pi, pi can be an holenumber or (x,y)
-            '''
-            move_to_position(pi)
-            do_extraction()
-            if disable_between_positions:
-                extract(0)
-        info('Diode laser disabled.')
-        disable()
+        with video_recording('{}/{}'.format(load_identifier, run_identifier)):
+            enable()
+            for pi in position:
+                ''' 
+                position the laser at pi, pi can be an holenumber or (x,y)
+                '''
+                with lighting(55):
+                    sleep(2)
+                    move_to_position(pi)
+                    sleep(2)
+
+                do_extraction()
+                if disable_between_positions:
+                    extract(0)
+            info('Diode laser disabled.')
+            disable()
       
     #gosub('felix:EquilibrateThenIsolateDiodeColdfinger')    
     #open(name="B", description="Bone to Diode Laser")
