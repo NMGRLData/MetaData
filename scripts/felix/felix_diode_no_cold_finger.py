@@ -21,9 +21,9 @@ def main():
     close(name="E", description="Bone to Minibone")
 
  
-    gosub('felix:IsolateDiodeColdfinger')
+    #gosub('felix:IsolateDiodeColdfinger')
 
-    open(name="B", description="Bone to Diode Laser")
+    #open(name="B", description="Bone to Diode Laser")
 
     
     '''
@@ -62,8 +62,8 @@ def main():
         info('Diode laser disabled.')
         disable()
       
-    gosub('felix:EquilibrateThenIsolateDiodeColdfinger')    
-    open(name="B", description="Bone to Diode Laser")
+    #gosub('felix:EquilibrateThenIsolateDiodeColdfinger')    
+    #open(name="B", description="Bone to Diode Laser")
 
     
     sleep(cleanup)
@@ -123,6 +123,7 @@ def main():
     info('Pump after analysis')
     gosub('felix:PumpBone')
     if get_resource_value(name='FelixMiniboneFlag'):
+        open('L')
         gosub('felix:PumpMinibone')
 #===============================================================================
 # POST MEASUREMENT SCRIPT felix_pump_ms.py
