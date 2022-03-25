@@ -30,6 +30,9 @@ def main():
         gosub('jan:PumpMiniboneAfterDiodeAnalysis')
     else:
         #gosub('jan:PumpMicrobone')
+        set_resource(name='CO2PumpTimeFlag', value=30)
+        release('JanCO2Flag')
+        
         v=get_resource_value(name='JanMiniboneFlag')
         info('get resource value {}'.format(v))
         if v:
@@ -41,6 +44,8 @@ def main():
             open('P')
             open('L')
             open('T')
+            open('Q')
+            open('M')
 
             close(description='Bone to Minibone')
             open(description='Minibone to Bone')         
