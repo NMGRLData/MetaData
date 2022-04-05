@@ -37,6 +37,12 @@ ACTIVE_DETECTORS=('H2','H1','AX','L1','L2(CDD)')
 def main():
     info('unknown measurement script')
     
+    L2_CDD_deflection = get_deflection('L2 (CDD)')
+    info('L2(CDD) deflection={}'.format(L2_CDD_deflection))
+    if L2_CDD_deflection:
+      info('Cancel measurement')
+      cancel()
+      
     activate_detectors(*ACTIVE_DETECTORS)
    
     
