@@ -43,8 +43,8 @@ def main():
     L2_CDD_deflection = get_deflection('L2 (CDD)')
     info('L2(CDD) deflection={}'.format(L2_CDD_deflection))
     if L2_CDD_deflection:
-      info('Cancel measurement')
-      cancel()
+      info('Aborting measurement')
+      abort()
 
     activate_detectors(*ACTIVE_DETECTORS)
    
