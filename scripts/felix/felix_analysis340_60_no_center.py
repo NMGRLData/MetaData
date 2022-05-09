@@ -26,10 +26,13 @@ peakcenter:
   - H2
   - H1
   - L2(CDD)
-  isotope: Ar36
+  - L1
   integration_time: 1.048576
+  isotope: Ar36
 peakhop:
+  generate_ic_table: false
   hops_name: ''
+  ncycles: 0
   use_peak_hop: false
 '''
 ACTIVE_DETECTORS=('H2','H1','AX','L1','L2(CDD)')
