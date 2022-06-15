@@ -21,7 +21,8 @@ def main():
     '''
     
     open(description='Bone to Turbo')
-  
+    disable_between_positions = True
+
     if analysis_type=='blank':
         info('Blank Analyis. No laser heating')
 
