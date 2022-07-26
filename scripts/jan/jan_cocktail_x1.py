@@ -12,9 +12,8 @@ def main():
     gosub('jan:EvacPipette1')
     gosub('common:FillPipette1')
     gosub('jan:PrepareForAirShotExpansion')
-    #sleep(duration=2.0)
-    #close(name="M", description="Microbone to Getter NP-10H")
-    #sleep(duration=2.0)
+    close(name="Q", description="Quad Inlet")
+    sleep(duration=2.0)
     gosub('common:ExpandPipette1')
 
 #===============================================================================
