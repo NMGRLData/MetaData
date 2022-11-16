@@ -89,6 +89,18 @@ def main():
                     integration_time=mx.peakcenter.integration_time,
                     config_name='CDD_on_36')
 
+    if analysis_type=='blank':
+      # we don't center on blanks
+      # so we are at the baseline position now
+      # 1. jump to the high mass side of the peak center
+      # 2. wait 15 seconds
+      # 3. then jump back to the peak center
+      high_mass_dac = 3.778
+      position_magnet(high_mass_dac,  'L2(CDD)', use_dac=True)
+      sleep(15)
+      position_magnet(mx.multicollect.isotope, detector=mx.multicollect.detector)
+          
+
     if use_cdd_warming:
        gosub('warm_cdd', argv=(mx.equilibration.outlet,))    
        
