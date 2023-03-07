@@ -106,14 +106,18 @@ def main():
         gosub('jan:PumpMiniboneAfterDiodeAnalysis')
     else:
         gosub('jan:PumpMicrobone')
-        v=get_resource_value(name='JanMiniboneFlag')  
+        v=get_resource_value(name='JanMiniboneFlag')
         info('get resource value {}'.format(v))
-        if get_resource_value(name='JanMiniboneFlag'):
+        if v:
+            info('Pumping Minibone')
             gosub('jan:PumpMinibone')
+        else:
+            info('Not Pumping Minibone')
+
 #===============================================================================
 # POST MEASUREMENT SCRIPT jan_pump_ms.py
 #===============================================================================
 def main():
     info('Pumping spectrometer')
-    open(name='O')
+    open(name='O', cancel_on_failed_actuation=False)
     
