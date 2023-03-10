@@ -64,36 +64,21 @@ def main():
    
 
 def do_extraction():
-    
-    # if ramp_rate>0:
-    #     '''
-    #     style 1.
-    #     '''
-    #                   begin_interval(duration)
-    #                   info('ramping to {} at {} {}/s'.format(extract_value, ramp_rate, extract_units)
-    #                   ramp(setpoint=extract_value, rate=ramp_rate)
-    #                   complete_interval()
-    #     '''
-    #     style 2.
-    #     '''
-    #     elapsed=ramp(setpoint=extract_value, rate=ramp_rate)
-    #     pelapsed=execute_pattern(pattern)
-    #     sleep(min(0, duration-elapsed-pelapsed))
-    if ramp_duration >0:
-        info("ramping to {} at {}/s".format(extract_value, ramp_rate))
+    info('begin interval')
+
+    begin_interval(duration)
+
+    if ramp_duration>0:
+        info(f"ramping to {extract_value} at {ramp_rate}/s units={extract_units}")
         ramp(setpoint=extract_value, duration=ramp_duration, period=0.5)
     else:
-        begin_interval(duration)
-        
-        info('set extract to {} ({})'.format(extract_value, extract_units))
-        extract()
-        sleep(2)
+        extract(extract_value, extract_units)
 
-        if pattern:
-            info('executing pattern {}'.format(pattern))
-            execute_pattern(pattern)
-
-        complete_interval()
+    if pattern:
+        info(f"executing pattern {pattern}")
+        execute_pattern(pattern)
+    
+    complete_interval()
 
 
 #===============================================================================
