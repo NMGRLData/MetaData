@@ -3,7 +3,7 @@
 #===============================================================================
 '''
 modifier: 01
-eqtime: 25
+eqtime: 15
 '''
 def main():
     info('Jan Air Script x1')
@@ -16,6 +16,9 @@ def main():
     gosub('common:FillPipette2')
     gosub('jan:PrepareForAirShotExpansion')
     gosub('common:ExpandPipette2')
+    close(name="L", description="Microbone to Minibone")
+    close(name="M", description="Microbone to Getter NP-10H")
+    sleep(duration=2.0)
 
 #===============================================================================
 # POST EQUILIBRATION SCRIPT jan_pump_extraction_line.py
@@ -29,14 +32,18 @@ def main():
         gosub('jan:PumpMiniboneAfterDiodeAnalysis')
     else:
         gosub('jan:PumpMicrobone')
-        v=get_resource_value(name='JanMiniboneFlag')  
+        v=get_resource_value(name='JanMiniboneFlag')
         info('get resource value {}'.format(v))
-        if get_resource_value(name='JanMiniboneFlag'):
+        if v:
+            info('Pumping Minibone')
             gosub('jan:PumpMinibone')
+        else:
+            info('Not Pumping Minibone')
+
 #===============================================================================
 # POST MEASUREMENT SCRIPT jan_pump_ms.py
 #===============================================================================
 def main():
     info('Pumping spectrometer')
-    open(name='O')
+    open(name='O', cancel_on_failed_actuation=False)
     
