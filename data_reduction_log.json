@@ -35415,215 +35415,54 @@
         "run_date": "2023-03-09T20:38:35"
     },
     {
-        "comment": "",
+        "comment": "Matt H:\nAll regressions are fine.\nDelete air blank 1100\nAir 2831 bad\nSteps with 40Ar>50000:\n70755-01 S, T deleted as if not run (i.e.  invalid)\n70757-01 B, C might run sample again\n70759-01B Perhaps just invalidate this step\n70786-01 B,C Run again",
+        "completion_date": "2023-04-12T07:40:28.773079",
         "name": "D0151",
         "projects": [
             {
                 "name": "CorrectionFactors",
-                "reduction_state": "notstarted",
-                "samples": [
-                    {
-                        "analysis_count": 7,
-                        "identifier": "70826",
-                        "reduction_state": "no reduction"
-                    }
-                ],
+                "reduction_state": "complete",
+                "samples": [],
                 "unique_id": 62
             },
             {
                 "name": "Gonzales",
-                "reduction_state": "notstarted",
-                "samples": [
-                    {
-                        "analysis_count": 17,
-                        "identifier": "70815",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 17,
-                        "identifier": "70816",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 17,
-                        "identifier": "70817",
-                        "reduction_state": "no reduction"
-                    }
-                ],
+                "reduction_state": "complete",
+                "samples": [],
                 "unique_id": 982
             },
             {
                 "name": "HobbsK",
-                "reduction_state": "notstarted",
-                "samples": [
-                    {
-                        "analysis_count": 17,
-                        "identifier": "70818",
-                        "reduction_state": "no reduction"
-                    }
-                ],
+                "reduction_state": "complete",
+                "samples": [],
                 "unique_id": 1446
             },
             {
                 "name": "KoningStateMap",
-                "reduction_state": "notstarted",
-                "samples": [
-                    {
-                        "analysis_count": 12,
-                        "identifier": "70763",
-                        "reduction_state": "no reduction"
-                    }
-                ],
+                "reduction_state": "complete",
+                "samples": [],
                 "unique_id": 1427
             },
             {
                 "name": "LopezA",
-                "reduction_state": "notstarted",
-                "samples": [
-                    {
-                        "analysis_count": 17,
-                        "identifier": "70819",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 17,
-                        "identifier": "70820",
-                        "reduction_state": "no reduction"
-                    }
-                ],
+                "reduction_state": "complete",
+                "samples": [],
                 "unique_id": 1447
             },
             {
                 "name": "TeyssierC",
-                "reduction_state": "notstarted",
-                "samples": [
-                    {
-                        "analysis_count": 32,
-                        "identifier": "70871",
-                        "reduction_state": "no reduction"
-                    }
-                ],
+                "reduction_state": "complete",
+                "samples": [],
                 "unique_id": 1451
             },
             {
                 "name": "ValenteS",
-                "reduction_state": "notstarted",
-                "samples": [
-                    {
-                        "analysis_count": 16,
-                        "identifier": "70752",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 20,
-                        "identifier": "70753",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 19,
-                        "identifier": "70754",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 20,
-                        "identifier": "70755",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 15,
-                        "identifier": "70756",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 29,
-                        "identifier": "70757",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 17,
-                        "identifier": "70758",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 16,
-                        "identifier": "70759",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 17,
-                        "identifier": "70776",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 17,
-                        "identifier": "70777",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 17,
-                        "identifier": "70778",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 17,
-                        "identifier": "70779",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 17,
-                        "identifier": "70780",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 16,
-                        "identifier": "70781",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 17,
-                        "identifier": "70782",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 17,
-                        "identifier": "70783",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 17,
-                        "identifier": "70784",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 17,
-                        "identifier": "70785",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 33,
-                        "identifier": "70786",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 14,
-                        "identifier": "70787",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 14,
-                        "identifier": "70788",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 17,
-                        "identifier": "70789",
-                        "reduction_state": "no reduction"
-                    }
-                ],
+                "reduction_state": "complete",
+                "samples": [],
                 "unique_id": 1441
             }
         ],
-        "reduction_state": "notstarted",
+        "reduction_state": "complete",
         "run_date": "2023-03-14T16:27:39"
     },
     {
