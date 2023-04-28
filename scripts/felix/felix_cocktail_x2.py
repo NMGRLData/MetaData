@@ -2,7 +2,7 @@
 # EXTRACTION SCRIPT felix_cocktail_x2.py
 #===============================================================================
 '''
-modifier: 02
+modifier: 03
 eqtime: 30
 '''
 
@@ -40,5 +40,5 @@ def main():
 #===============================================================================
 def main():
 	info('Pumping spectrometer')
-	open(name='V')
+	open(name='V', cancel_on_failed_actuation=False)
 	
