@@ -70,6 +70,9 @@ def main():
     sleep(2)
     close('U')
     close('T')
+    close('I')
+    sleep(2)
+    open('C')
     sleep(2)
     open('L')
     sleep(cleanup)
@@ -113,7 +116,7 @@ def do_extraction():
 def main():
     info('Pump after analysis')
 
-    if extract_device=="FusionsDiode":
+    if extract_device=="FusionsDiode" or extract_device=='NMGRLFurnace':
         info('Pump after Jan diode analysis')
         gosub('jan:PumpMicroBoneAfterDiodeAnalysis')
         gosub('jan:PumpMiniboneAfterDiodeAnalysis')
