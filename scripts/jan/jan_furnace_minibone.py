@@ -49,6 +49,8 @@ def main():
     # furnace cool down before transfer
     sleep(60)
     
+    gosub("jan:WaitForMiniboneAccess")
+
     # prepare bone for transfer
     close('B')
     close('C')
@@ -65,9 +67,8 @@ def main():
     open('J')
     sleep(30)
     close('J')
-    sleep(30)
-    open('FC', cancel_on_failed_actuation=False, ntries=20)
     sleep(2)
+    open('FC', cancel_on_failed_actuation=False, ntries=20)
     close('U')
     close('T')
     close('I')
