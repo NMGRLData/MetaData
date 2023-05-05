@@ -5,7 +5,7 @@
 eqtime: 15
 '''
 
-OFFSET = 200
+OFFSET = 250
 
 def main():
     start_response_recorder()
