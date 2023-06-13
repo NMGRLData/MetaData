@@ -18,7 +18,7 @@ def main():
     gosub('common:ExpandPipette2')
     #close(name="T", description="Microbone to CO2 Laser")
     close(name="L", description="Microbone to Minibone")
-    close(name="M", description="Microbone to Getter NP-10H")
+    #close(name="M", description="Microbone to Getter NP-10H")
     sleep(duration=3.0)
 
     
