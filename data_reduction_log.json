@@ -2122,120 +2122,13 @@
             {
                 "name": "Henry01256",
                 "reduction_state": "complete",
-                "samples": [
-                    {
-                        "analysis_count": 20,
-                        "identifier": "67559",
-                        "reduction_state": "complete"
-                    },
-                    {
-                        "analysis_count": 15,
-                        "identifier": "67560",
-                        "reduction_state": "complete"
-                    },
-                    {
-                        "analysis_count": 5,
-                        "identifier": "67561",
-                        "reduction_state": "complete"
-                    },
-                    {
-                        "analysis_count": 20,
-                        "identifier": "67562",
-                        "reduction_state": "complete"
-                    },
-                    {
-                        "analysis_count": 18,
-                        "identifier": "67564",
-                        "reduction_state": "complete"
-                    },
-                    {
-                        "analysis_count": 20,
-                        "identifier": "67566",
-                        "reduction_state": "complete"
-                    }
-                ],
+                "samples": [],
                 "unique_id": 1256
             },
             {
                 "name": "Irradiation-NM-309",
                 "reduction_state": "complete",
-                "samples": [
-                    {
-                        "analysis_count": 8,
-                        "identifier": "26978",
-                        "reduction_state": "complete"
-                    },
-                    {
-                        "analysis_count": 8,
-                        "identifier": "26979",
-                        "reduction_state": "complete"
-                    },
-                    {
-                        "analysis_count": 8,
-                        "identifier": "26980",
-                        "reduction_state": "complete"
-                    },
-                    {
-                        "analysis_count": 8,
-                        "identifier": "26981",
-                        "reduction_state": "complete"
-                    },
-                    {
-                        "analysis_count": 8,
-                        "identifier": "26982",
-                        "reduction_state": "complete"
-                    },
-                    {
-                        "analysis_count": 8,
-                        "identifier": "26983",
-                        "reduction_state": "complete"
-                    },
-                    {
-                        "analysis_count": 8,
-                        "identifier": "26984",
-                        "reduction_state": "complete"
-                    },
-                    {
-                        "analysis_count": 8,
-                        "identifier": "26985",
-                        "reduction_state": "complete"
-                    },
-                    {
-                        "analysis_count": 8,
-                        "identifier": "26994",
-                        "reduction_state": "complete"
-                    },
-                    {
-                        "analysis_count": 8,
-                        "identifier": "26995",
-                        "reduction_state": "complete"
-                    },
-                    {
-                        "analysis_count": 8,
-                        "identifier": "26996",
-                        "reduction_state": "complete"
-                    },
-                    {
-                        "analysis_count": 8,
-                        "identifier": "26997",
-                        "reduction_state": "complete"
-                    },
-                    {
-                        "analysis_count": 8,
-                        "identifier": "26998",
-                        "reduction_state": "complete"
-                    },
-                    {
-                        "analysis_count": 8,
-                        "identifier": "26999",
-                        "reduction_state": "complete"
-                    },
-                    {
-                        "analysis_count": 9,
-                        "identifier": "27000",
-                        "reduction_state": "complete"
-                    }
-                ],
+                "samples": [],
                 "unique_id": 1257
             }
         ],
@@ -33899,6 +33792,45 @@
         ],
         "reduction_state": "complete",
         "run_date": "2023-06-03T09:16:05"
+    },
+    {
+        "comment": "Matt H:  Felix continues to have trouble, especially the ion counter. Airs drifted up in 40/36 and upon load completion turned up operating voltage to get 36 back on the plateau. 38 continue to be noise as the board needs to be replaced. \n\nInvalididated airs 3667, 91,92,93,94,3900, 03,11,21,27 and used run segment interpolation to fit airs.\n\nOmit cocktails 2241 and 2259 and used standard deviation for IC",
+        "completion_date": "2023-07-16T16:07:54.207808",
+        "name": "D0169",
+        "projects": [
+            {
+                "name": "DavisP",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1465
+            },
+            {
+                "name": "GammonsC",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1452
+            },
+            {
+                "name": "Naibert_T",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1417
+            },
+            {
+                "name": "PinoA",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1467
+            },
+            {
+                "name": "Zimmerer",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 82
+            }
+        ],
+        "reduction_state": "complete",
+        "run_date": "2023-07-05T08:01:56"
     },
     {
         "comment": "",
