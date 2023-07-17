@@ -20,7 +20,7 @@ def main():
     keep pumping bone while cold finger isolated
     '''
     
-    open(description='Bone to Turbo')
+    #open(description='Bone to Turbo') Concerned about B conducting therefore closing C to retain any gas moving through B
     disable_between_positions = True
 
     if analysis_type=='blank':
