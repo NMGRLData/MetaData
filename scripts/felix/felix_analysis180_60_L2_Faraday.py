@@ -3,7 +3,7 @@
 baseline:
   after: true
   before: false
-  counts: 45
+  counts: 90
   detector: H2
   mass: 39.862
   settling_time: 15.0
@@ -15,7 +15,7 @@ equilibration:
   outlet: V
   use_extraction_eqtime: true
 multicollect:
-  counts: 180
+  counts: 400
   detector: L2
   isotope: Ar36
 peakcenter:
