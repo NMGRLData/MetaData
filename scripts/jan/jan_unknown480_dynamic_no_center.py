@@ -3,14 +3,14 @@
 baseline:
   after: true
   before: false
-  counts: 45
+  counts: 30
   detector: H1
-  mass: 37.6
+  mass: 34.2
   settling_time: 15
 default_fits: nominal
 equilibration:
   eqtime: 1.0
-  inlet: R
+  inlet: S
   inlet_delay: 3
   outlet: O
   use_extraction_eqtime: true
