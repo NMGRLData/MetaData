@@ -3,20 +3,20 @@
 baseline:
   after: true
   before: false
-  counts: 60
+  counts: 30
   detector: H1
-  mass: 37.6
-  settling_time: 10
+  mass: 34.2
+  settling_time: 3
 default_fits: nominal
 equilibration:
   eqtime: 1.0
-  inlet: R
+  inlet: S
   inlet_delay: 3
   outlet: O
   use_extraction_eqtime: true
   post_equilibration_delay: 5
 multicollect:
-  counts: 240
+  counts: 180
   detector: H1
   isotope: Ar40
 peakcenter:
