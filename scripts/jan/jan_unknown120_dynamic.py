@@ -84,7 +84,7 @@ def main():
             settling_time = 7
         elif ar40intensity < 300:
             settling_time = 10
-        elif ar40intensity < 700:
+        elif ar40intensity < 900:
             settling_time = 15
         elif ar40intensity > 5000:
             settling_time = 60
