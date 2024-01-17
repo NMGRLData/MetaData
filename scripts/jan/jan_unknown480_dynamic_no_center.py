@@ -5,7 +5,7 @@ baseline:
   before: false
   counts: 30
   detector: H1
-  mass: 37.4
+  mass: 37.6
   settling_time: 15
 default_fits: nominal
 equilibration:
@@ -86,7 +86,7 @@ def main():
             settling_time = 5
         elif ar40intensity < 300:
             settling_time = 7
-        elif ar40intensity < 700:
+        elif ar40intensity < 900:
             settling_time = 10
         elif ar40intensity > 5000:
             settling_time = 60
