@@ -16,11 +16,11 @@ equilibration:
   use_extraction_eqtime: true
   post_equilibration_delay: 5
 multicollect:
-  counts: 120
+  counts: 180
   detector: H1
   isotope: Ar40
 peakcenter:
-  after: false
+  after: true
   before: false
   detector: H1
   detectors:

@@ -3,40 +3,36 @@
 baseline:
   after: true
   before: false
-  counts: 30
-  detector: H1
-  mass: 37.6
-  settling_time: 6
+  counts: 45
+  detector: H2
+  mass: 39.862
+  settling_time: 15.0
 default_fits: nominal
 equilibration:
   eqtime: 1.0
-  inlet: R
+  inlet: H
   inlet_delay: 3
-  outlet: O
+  outlet: V
   use_extraction_eqtime: true
-  post_equilibration_delay: 5
 multicollect:
   counts: 180
-  detector: H1
-  isotope: Ar40
+  detector: L2(CDD)
+  isotope: Ar36
 peakcenter:
   after: false
   before: false
-  detector: H1
+  detector: L2(CDD)
   detectors:
-  - H1
-  - AX
-  - L2
-  - CDD
-  integration_time: 0.262144
-  isotope: Ar40
+  - H2
+  - AX(CDD)
+  - L2(CDD)
+  isotope: Ar36
+  integration_time: 1.048576
 peakhop:
-  generate_ic_table: false
   hops_name: ''
-  ncycles: 0
   use_peak_hop: false
 '''
-ACTIVE_DETECTORS=('H2','H1','AX','L1','L2','CDD')
+ACTIVE_DETECTORS=('H2','H1','AX(CDD)','L1','L2(CDD)')
     
 def main():
     info('unknown measurement script')
@@ -62,31 +58,28 @@ def main():
     Equilibrate is non-blocking so use a sniff or sleep as a placeholder
     e.g sniff(<equilibration_time>) or sleep(<equilibration_time>)
     '''
-
     equilibrate(eqtime=eqt, inlet=mx.equilibration.inlet, outlet=mx.equilibration.outlet, 
                delay=mx.equilibration.inlet_delay)
-
     set_time_zero()
     
     sniff(eqt)    
     set_fits()
     set_baseline_fits()
-
-    # delay to migitate 39Ar spike from inlet valve close
-    sleep(mx.equilibration.post_equilibration_delay)
-
+    
     #multicollect on active detectors
-    multicollect(ncounts=mx.multicollect.counts, integration_time=1)
+    multicollect(ncounts=mx.multicollect.counts, integration_time=1.048576)
     
     if mx.baseline.after:
+        #set_integration_time(4.194)
         baselines(ncounts=mx.baseline.counts,mass=mx.baseline.mass, detector=mx.baseline.detector, 
                   settling_time=mx.baseline.settling_time)
+        #set_integration_time(1.049)
+        
     if mx.peakcenter.after:
         activate_detectors(*mx.peakcenter.detectors, **{'peak_center':True})
-        peak_center(detector=mx.peakcenter.detector,isotope=mx.peakcenter.isotope,
-        integration_time=mx.peakcenter.integration_time)
-    else:
-        position_magnet(mx.multicollect.isotope, detector=mx.multicollect.detector, for_collection=False)
+        peak_center(detector=mx.peakcenter.detector,isotope=mx.peakcenter.isotope, 
+                    integration_time=mx.peakcenter.integration_time,
+                    config_name='CDD_on_36')
 
     if use_cdd_warming:
        gosub('warm_cdd', argv=(mx.equilibration.outlet,))    

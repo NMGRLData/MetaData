@@ -3,11 +3,13 @@
 #===============================================================================
 '''
 modifier: 03
+eqtime: 15
 '''
 def main():
     info("Jan Cocktail Pipette x1")
     gosub('jan:WaitForMiniboneAccess')
     gosub('jan:PrepareForAirShot')
+    close(name="Q", description="Quad Inlet")
     gosub('jan:EvacPipette1')
     gosub('common:FillPipette1')
     gosub('jan:PrepareForAirShotExpansion')
@@ -25,7 +27,7 @@ def main():
 def main():
     info('Pump after analysis')
 
-    if extract_device=="FusionsDiode":
+    if extract_device=="FusionsDiode" or extract_device=='NMGRLFurnace':
         info('Pump after Jan diode analysis')
         gosub('jan:PumpMicroBoneAfterDiodeAnalysis')
         gosub('jan:PumpMiniboneAfterDiodeAnalysis')

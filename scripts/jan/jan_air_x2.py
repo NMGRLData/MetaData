@@ -3,7 +3,7 @@
 #===============================================================================
 '''
 modifier: 01
-eqtime: 15
+eqtime: 12
 '''
 def main():
     info('Jan Air Script x1')
@@ -16,17 +16,16 @@ def main():
     gosub('common:FillPipette2')
     gosub('jan:PrepareForAirShotExpansion')
     gosub('common:ExpandPipette2')
-    close(name="L", description="Microbone to Minibone")
     close(name="M", description="Microbone to Getter NP-10H")
+    close(name="L", description="Microbone to Minibone")
     sleep(duration=2.0)
-
 #===============================================================================
 # POST EQUILIBRATION SCRIPT jan_pump_extraction_line.py
 #===============================================================================
 def main():
     info('Pump after analysis')
 
-    if extract_device=="FusionsDiode":
+    if extract_device=="FusionsDiode" or extract_device=='NMGRLFurnace':
         info('Pump after Jan diode analysis')
         gosub('jan:PumpMicroBoneAfterDiodeAnalysis')
         gosub('jan:PumpMiniboneAfterDiodeAnalysis')

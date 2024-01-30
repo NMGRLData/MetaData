@@ -16,7 +16,7 @@ equilibration:
   use_extraction_eqtime: true
   post_equilibration_delay: 5
 multicollect:
-  counts: 120
+  counts: 180
   detector: H1
   isotope: Ar40
 peakcenter:
@@ -39,6 +39,9 @@ def main():
     info('unknown measurement script')
 
     activate_detectors(*ACTIVE_DETECTORS)
+
+    # deflect cdd
+    set_deflection('CDD', 450)
 
 
     if mx.peakcenter.before:
@@ -99,5 +102,9 @@ def main():
         position_magnet(mx.multicollect.isotope, detector=mx.multicollect.detector, for_collection=False)
     if use_cdd_warming:
        gosub('warm_cdd', argv=(mx.equilibration.outlet,))
+
+
+    # return CDD deflection to nominal value
+    set_deflection('CDD', 275)
 
     info('finished measure script')
