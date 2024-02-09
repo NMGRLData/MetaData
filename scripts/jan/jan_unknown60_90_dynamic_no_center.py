@@ -5,7 +5,7 @@ baseline:
   before: false
   counts: 90
   detector: H1
-  mass: 34.2
+  mass: 40.5
   settling_time: 60
 default_fits: nominal_linear
 equilibration:
