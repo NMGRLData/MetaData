@@ -24,7 +24,7 @@ def main():
 def main():
     info('Pump after analysis')
 
-    if extract_device=="FusionsDiode":
+    if extract_device=="FusionsDiode" or extract_device=='NMGRLFurnace':
         info('Pump after Jan diode analysis')
         gosub('jan:PumpMicroBoneAfterDiodeAnalysis')
         gosub('jan:PumpMiniboneAfterDiodeAnalysis')
