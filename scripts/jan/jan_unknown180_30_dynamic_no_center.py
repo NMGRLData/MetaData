@@ -1,7 +1,7 @@
 #!Measurement
 '''
 baseline:
-  after: true
+  after: false
   before: false
   counts: 45
   detector: H1
