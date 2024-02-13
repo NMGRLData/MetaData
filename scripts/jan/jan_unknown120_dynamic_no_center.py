@@ -1,11 +1,11 @@
 #!Measurement
 '''
 baseline:
-  after: true
+  after: false
   before: false
   counts: 30
   detector: H1
-  mass: 37.6
+  mass: 40.5
   settling_time: 25
 default_fits: nominal_linear
 equilibration:
