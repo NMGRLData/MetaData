@@ -1,9 +1,9 @@
 #!Measurement
 '''
 baseline:
-  after: false
+  after: true
   before: false
-  counts: 30
+  counts: 45
   detector: H1
   mass: 40.5
   settling_time: 25
