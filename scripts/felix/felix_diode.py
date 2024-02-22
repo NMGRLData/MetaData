@@ -13,16 +13,25 @@ def main():
     set_motor('beam',beam_diameter)
     
     gosub('felix:PrepareForDiodeAnalysis')
+
+
+    close(name="C", description="Bone to Turbo")
+
+    close(name="D", description="Bone to CO2 Laser")
+    close(name="E", description="Bone to Minibone")
+
  
-    gosub('felix:IsolateDiodeColdfinger')
+    #gosub('felix:IsolateDiodeColdfinger')
+
+    #open(name="B", description="Bone to Diode Laser")
+
     
     '''
     keep pumping bone while cold finger isolated
     '''
     
-    #open(description='Bone to Turbo') Concerned about B conducting therefore closing C to retain any gas moving through B
-    disable_between_positions = True
-
+    #open(description='Bone to Turbo')
+  
     if analysis_type=='blank':
         info('Blank Analyis. No laser heating')
 
@@ -41,20 +50,26 @@ def main():
         this is the most generic way to move and fire the laser
         position is always a list even if only one hole is specified
         '''
-        enable()
-        with video_recording(f'{load_identifier}/{run_identifier}'):
+        with video_recording('{}/{}'.format(load_identifier, run_identifier)):
+            enable()
             for pi in position:
                 ''' 
                 position the laser at pi, pi can be an holenumber or (x,y)
                 '''
-                move_to_position(pi)
+                with lighting(55):
+                    sleep(2)
+                    move_to_position(pi)
+                    sleep(2)
+
                 do_extraction()
                 if disable_between_positions:
                     extract(0)
             info('Diode laser disabled.')
             disable()
       
-    gosub('felix:EquilibrateThenIsolateDiodeColdfinger')    
+    #gosub('felix:EquilibrateThenIsolateDiodeColdfinger')    
+    #open(name="B", description="Bone to Diode Laser")
+
     
     sleep(cleanup)
 
