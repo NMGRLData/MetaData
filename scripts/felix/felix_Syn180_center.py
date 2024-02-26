@@ -2,7 +2,7 @@
 '''
 baseline:
   after: false
-  before: true
+  before: false
   counts: 45
   detector: H2
   mass: 39.862
