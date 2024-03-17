@@ -21,7 +21,7 @@ def main():
     close(name="E", description="Bone to Minibone")
 
  
-    #gosub('felix:IsolateDiodeColdfinger')
+    gosub('felix:IsolateDiodeColdfinger')
 
     #open(name="B", description="Bone to Diode Laser")
 
@@ -67,7 +67,7 @@ def main():
             info('Diode laser disabled.')
             disable()
       
-    #gosub('felix:EquilibrateThenIsolateDiodeColdfinger')    
+    gosub('felix:EquilibrateThenIsolateDiodeColdfinger')    
     #open(name="B", description="Bone to Diode Laser")
 
     
