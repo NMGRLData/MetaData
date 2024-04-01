@@ -21,11 +21,7 @@ def main():
     close(name="E", description="Bone to Minibone")
 
  
-<<<<<<< HEAD
     gosub('felix:IsolateDiodeColdfinger')
-=======
-    #gosub('felix:IsolateDiodeColdfinger')
->>>>>>> parent of 84975ff4 (repo updated for analysis 71279-47)
 
     #open(name="B", description="Bone to Diode Laser")
 
@@ -71,11 +67,7 @@ def main():
             info('Diode laser disabled.')
             disable()
       
-<<<<<<< HEAD
     gosub('felix:EquilibrateThenIsolateDiodeColdfinger')    
-=======
-    #gosub('felix:EquilibrateThenIsolateDiodeColdfinger')    
->>>>>>> parent of 84975ff4 (repo updated for analysis 71279-47)
     #open(name="B", description="Bone to Diode Laser")
 
     
