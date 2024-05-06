@@ -34694,10 +34694,30 @@
         "run_date": "2024-04-12T14:25:46"
     },
     {
-        "comment": "",
+        "comment": "Matt H. Deleted 71551-01D because no regressions. Fit air with bracketing and omitted airs 4879 and 4905",
+        "completion_date": "2024-05-06T12:39:47.270464",
         "name": "D0187",
-        "projects": [],
-        "reduction_state": "notstarted",
+        "projects": [
+            {
+                "name": "ChesnerC",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1492
+            },
+            {
+                "name": "Michelfelder",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1352
+            },
+            {
+                "name": "WidomE",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1485
+            }
+        ],
+        "reduction_state": "complete",
         "run_date": "2024-04-15T09:07:17"
     },
     {
