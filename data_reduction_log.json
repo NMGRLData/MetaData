@@ -34802,10 +34802,36 @@
         "run_date": "2024-04-28T10:15:11"
     },
     {
-        "comment": "",
+        "comment": "Including 40/38 IC",
+        "completion_date": "2024-05-13T16:10:34.795958",
         "name": "D0191",
-        "projects": [],
-        "reduction_state": "notstarted",
+        "projects": [
+            {
+                "name": "CorrectionFactors",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 62
+            },
+            {
+                "name": "Heizler",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 105
+            },
+            {
+                "name": "Henry",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 65
+            },
+            {
+                "name": "IversonN",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1461
+            }
+        ],
+        "reduction_state": "complete",
         "run_date": "2024-04-30T13:05:03"
     },
     {
