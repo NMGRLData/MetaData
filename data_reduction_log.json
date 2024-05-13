@@ -34802,7 +34802,7 @@
         "run_date": "2024-04-28T10:15:11"
     },
     {
-        "comment": "Including 40/38 IC",
+        "comment": "Including 40/38 IC.  not done Heizler as repository issue",
         "completion_date": "2024-05-13T16:10:34.795958",
         "name": "D0191",
         "projects": [
@@ -34835,10 +34835,30 @@
         "run_date": "2024-04-30T13:05:03"
     },
     {
-        "comment": "",
+        "comment": "Incl 40/38 IC correction.  71510-03C did not work for iso evo and have not done Heizler (repository issue)",
+        "completion_date": "2024-05-13T16:35:36.569584",
         "name": "D0192",
-        "projects": [],
-        "reduction_state": "notstarted",
+        "projects": [
+            {
+                "name": "CorrectionFactors",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 62
+            },
+            {
+                "name": "Heizler",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 105
+            },
+            {
+                "name": "Henry",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 65
+            }
+        ],
+        "reduction_state": "complete",
         "run_date": "2024-05-03T11:17:51"
     },
     {
