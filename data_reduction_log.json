@@ -34749,10 +34749,30 @@
         "run_date": "2024-04-21T10:47:01"
     },
     {
-        "comment": "",
+        "comment": "Including 40/38 IC correction",
+        "completion_date": "2024-05-13T15:47:02.577884",
         "name": "D0189",
-        "projects": [],
-        "reduction_state": "notstarted",
+        "projects": [
+            {
+                "name": "HarrisR",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1484
+            },
+            {
+                "name": "KarsliO",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1483
+            },
+            {
+                "name": "Michelfelder",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1352
+            }
+        ],
+        "reduction_state": "complete",
         "run_date": "2024-04-25T06:16:17"
     },
     {
