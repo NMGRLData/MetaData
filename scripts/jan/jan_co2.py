@@ -2,7 +2,7 @@
 # EXTRACTION SCRIPT jan_co2.py
 #===============================================================================
 '''
-eqtime: 11
+eqtime: 15
 '''
 def main():
     info('Jan CO2 laser analysis')
