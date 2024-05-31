@@ -3,23 +3,22 @@
 #===============================================================================
 '''
 modifier: 01
-eqtime: 12
+eqtime: 15
 '''
 def main():
     info('Jan Air Script x1')
     gosub('jan:WaitForMiniboneAccess')
     gosub('jan:PrepareForAirShot')
     gosub('jan:EvacPipette2')
-    close(name="T", description="Microbone to CO2 Laser")
+    open(name="T", description="Microbone to CO2 Laser")
     open(name="Q", description="Quad Inlet")
     gosub('common:FillPipette2')
-    #close(name="M", description="Microbone to Getter NP-10H")
-    #sleep(duration=3.0)
+    close(name="M", description="Microbone to Getter NP-10H")
+    sleep(duration=3.0)
     gosub('jan:PrepareForAirShotExpansion')
     gosub('common:ExpandPipette2')
     close(name="T", description="Microbone to CO2 Laser")
     close(name="L", description="Microbone to Minibone")
-    close(name="M", description="Microbone to Getter NP-10H")
     sleep(duration=2.0)
 
     
