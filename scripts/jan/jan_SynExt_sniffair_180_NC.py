@@ -101,3 +101,5 @@ def main():
        gosub('warm_cdd', argv=(mx.equilibration.outlet,))
 
     info('finished measure script')
+
+    open(name='R')
