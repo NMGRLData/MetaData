@@ -11,7 +11,7 @@ default_fits: nominal_linear
 equilibration:
   eqtime: 1.0
   inlet: S
-  inlet_delay: 3
+  inlet_delay: 6
   outlet: O
   use_extraction_eqtime: true
   post_equilibration_delay: 2
