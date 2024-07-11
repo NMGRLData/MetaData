@@ -17,7 +17,7 @@ def main():
 def main():
     info('Pump after analysis')
 
-    if extract_device=="FusionsDiode":
+    if extract_device=="FusionsDiode" or extract_device=='NMGRLFurnace':
         info('Pump after Jan diode analysis')
         gosub('jan:PumpMicroBoneAfterDiodeAnalysis')
         gosub('jan:PumpMiniboneAfterDiodeAnalysis')
@@ -38,3 +38,11 @@ def main():
     info('Pumping spectrometer')
     open(name='O', cancel_on_failed_actuation=False)
     
+    # setup dynamic pumping
+    # delay extra time of the ar40 intensity is greater than a set threshold
+    
+    ar40intensity = get_intensity('H1')
+    if ar40intensity> 4900:
+        sleep(20)
+    elif ar40intensity>3000:
+        sleep(10)
