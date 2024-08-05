@@ -3,13 +3,12 @@
 #===============================================================================
 '''
 modifier: 03
-eqtime: 15
+eqtime: 12
 '''
 def main():
     info("Jan Cocktail Pipette x1")
     gosub('jan:WaitForMiniboneAccess')
     gosub('jan:PrepareForAirShot')
-    close(name="Q", description="Quad Inlet")
     gosub('jan:EvacPipette1')
     gosub('common:FillPipette1')
     gosub('jan:PrepareForAirShotExpansion')
@@ -45,3 +44,11 @@ def main():
     info('Pumping spectrometer')
     open(name='O', cancel_on_failed_actuation=False)
     
+    # setup dynamic pumping
+    # delay extra time of the ar40 intensity is greater than a set threshold
+    
+    ar40intensity = get_intensity('H1')
+    if ar40intensity> 4900:
+        sleep(20)
+    elif ar40intensity>3000:
+        sleep(10)
