@@ -3,7 +3,7 @@
 #===============================================================================
 '''
 modifier: 01
-eqtime: 12
+eqtime: 25
 '''
 def main():
     info('Jan Air Script x1')
@@ -16,9 +16,7 @@ def main():
     gosub('common:FillPipette2')
     gosub('jan:PrepareForAirShotExpansion')
     gosub('common:ExpandPipette2')
-    close(name="M", description="Microbone to Getter NP-10H")
-    close(name="L", description="Microbone to Minibone")
-    sleep(duration=2.0)
+
 #===============================================================================
 # POST EQUILIBRATION SCRIPT jan_pump_extraction_line.py
 #===============================================================================
@@ -46,3 +44,11 @@ def main():
     info('Pumping spectrometer')
     open(name='O', cancel_on_failed_actuation=False)
     
+    # setup dynamic pumping
+    # delay extra time of the ar40 intensity is greater than a set threshold
+    
+    ar40intensity = get_intensity('H1')
+    if ar40intensity> 4900:
+        sleep(20)
+    elif ar40intensity>3000:
+        sleep(10)
