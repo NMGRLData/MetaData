@@ -10,7 +10,7 @@ def main():
     gosub('jan:WaitForMiniboneAccess')
     gosub('jan:PrepareForAirShot')
     gosub('jan:EvacPipette2')
-    open(name="T", description="Microbone to CO2 Laser")
+    close(name="T", description="Microbone to CO2 Laser")
     open(name="Q", description="Quad Inlet")
     gosub('common:FillPipette2')
     close(name="M", description="Microbone to Getter NP-10H")
