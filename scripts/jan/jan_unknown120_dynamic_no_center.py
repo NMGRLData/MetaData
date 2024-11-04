@@ -3,18 +3,18 @@
 baseline:
   after: true
   before: false
-  counts: 45
+  counts: 30
   detector: H1
-  mass: 40.5
+  mass: 34.2
   settling_time: 25
 default_fits: nominal_linear
 equilibration:
   eqtime: 1.0
-  inlet: R
+  inlet: S
   inlet_delay: 3
   outlet: O
   use_extraction_eqtime: true
-  post_equilibration_delay: 5
+  post_equilibration_delay: 3
 multicollect:
   counts: 120
   detector: H1
@@ -84,7 +84,7 @@ def main():
             settling_time = 7
         elif ar40intensity < 300:
             settling_time = 10
-        elif ar40intensity < 900:
+        elif ar40intensity < 700:
             settling_time = 15
         elif ar40intensity > 5000:
             settling_time = 60
