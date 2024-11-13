@@ -1,160 +1,574 @@
 {
     "positions": [
         {
-            "analyses": [],
-            "decay_constants": {},
+            "analyses": [
+                {
+                    "is_omitted": false,
+                    "record_id": "30127-01",
+                    "uuid": "555eb053-faae-4cd6-8c1e-3d2b6f1a7837"
+                },
+                {
+                    "is_omitted": false,
+                    "record_id": "30127-02",
+                    "uuid": "b8e1093d-d446-4e8f-8a16-16f7c8e036af"
+                },
+                {
+                    "is_omitted": false,
+                    "record_id": "30127-03",
+                    "uuid": "04d3bd56-c1ad-4a3e-bf90-12028b820bfc"
+                },
+                {
+                    "is_omitted": false,
+                    "record_id": "30127-04",
+                    "uuid": "605b17ee-4c1c-4d0a-a4fb-8a070920523a"
+                },
+                {
+                    "is_omitted": false,
+                    "record_id": "30127-05",
+                    "uuid": "d3547b3e-020b-42a8-ad3e-a6622af12238"
+                },
+                {
+                    "is_omitted": true,
+                    "record_id": "30127-06",
+                    "uuid": "928e9973-5091-4920-9f83-237442839d12"
+                },
+                {
+                    "is_omitted": false,
+                    "record_id": "30127-07",
+                    "uuid": "12d012d7-921d-4f3f-9782-79c5e4ffcff1"
+                },
+                {
+                    "is_omitted": false,
+                    "record_id": "30127-08",
+                    "uuid": "8e6e968a-4e82-409f-a12f-4ffd819d9249"
+                }
+            ],
+            "decay_constants": {
+                "lambda_k_total": 5.463e-10,
+                "lambda_k_total_error": 9.998499887483122e-12
+            },
             "identifier": "30127",
-            "j": 0.00081,
-            "j_err": 8.1e-07,
-            "mean_j": 0,
-            "mean_j_err": 0,
-            "mean_j_mswd": 0,
-            "options": {},
+            "j": 0.0008049773309302491,
+            "j_err": 6.079053274435027e-07,
+            "mean_j": 0.0008049311182323387,
+            "mean_j_err": 7.609286067543844e-07,
+            "mean_j_mswd": 2.1486122835207917,
+            "options": {
+                "interpolation_style": "Weighted Mean",
+                "model_kind": "Bracketing",
+                "monitor_age": 28.201,
+                "monitor_material": "FC-2",
+                "monitor_name": "FC-2",
+                "monitor_reference": "FC Min",
+                "monte_carlo_ntrials": 10000,
+                "predicted_j_error_type": "SD",
+                "use_monte_carlo": true,
+                "use_weighted_fit": true
+            },
             "position": 7,
-            "position_jerr": null
+            "position_jerr": 0.0
         },
         {
-            "analyses": [],
-            "decay_constants": {},
+            "analyses": [
+                {
+                    "is_omitted": false,
+                    "record_id": "30128-01",
+                    "uuid": "99761e50-48ee-4e2a-988e-12cea8513573"
+                },
+                {
+                    "is_omitted": false,
+                    "record_id": "30128-02",
+                    "uuid": "e574995d-f258-4794-9b9b-72ac6d89afd7"
+                },
+                {
+                    "is_omitted": false,
+                    "record_id": "30128-03",
+                    "uuid": "d9dd0b4e-04fc-4594-864f-a8ecda09390d"
+                },
+                {
+                    "is_omitted": false,
+                    "record_id": "30128-04",
+                    "uuid": "defaef96-f3cb-4119-a348-b739250e6221"
+                },
+                {
+                    "is_omitted": true,
+                    "record_id": "30128-05",
+                    "uuid": "87e79e99-d245-46ef-855b-8249ce8efe93"
+                },
+                {
+                    "is_omitted": false,
+                    "record_id": "30128-06",
+                    "uuid": "32774e5c-5296-408f-b190-a33598b7e225"
+                },
+                {
+                    "is_omitted": true,
+                    "record_id": "30128-07",
+                    "uuid": "f7785399-cfc1-4c16-a543-5840456e2259"
+                },
+                {
+                    "is_omitted": false,
+                    "record_id": "30128-08",
+                    "uuid": "28bf73a8-7e43-414f-92be-7826c23bc250"
+                }
+            ],
+            "decay_constants": {
+                "lambda_k_total": 5.463e-10,
+                "lambda_k_total_error": 9.998499887483122e-12
+            },
             "identifier": "30128",
-            "j": 0.00081,
-            "j_err": 8.1e-07,
-            "mean_j": 0,
-            "mean_j_err": 0,
-            "mean_j_mswd": 0,
-            "options": {},
+            "j": 0.0008038000799193896,
+            "j_err": 3.6055975692438284e-07,
+            "mean_j": 0.0008050588623405139,
+            "mean_j_err": 1.0107080552252672e-06,
+            "mean_j_mswd": 8.459323403139491,
+            "options": {
+                "interpolation_style": "Weighted Mean",
+                "model_kind": "Bracketing",
+                "monitor_age": 28.201,
+                "monitor_material": "FC-2",
+                "monitor_name": "FC-2",
+                "monitor_reference": "FC Min",
+                "monte_carlo_ntrials": 10000,
+                "predicted_j_error_type": "SD",
+                "use_monte_carlo": true,
+                "use_weighted_fit": true
+            },
             "position": 8,
-            "position_jerr": null
+            "position_jerr": 0.0
         },
         {
-            "analyses": [],
-            "decay_constants": {},
+            "analyses": [
+                {
+                    "is_omitted": true,
+                    "record_id": "30129-01",
+                    "uuid": "d55ff4e3-24e3-4642-8540-f2f4e604f921"
+                },
+                {
+                    "is_omitted": false,
+                    "record_id": "30129-02",
+                    "uuid": "20ad2b7d-5aa0-43b7-a5c7-912dbfbaca91"
+                },
+                {
+                    "is_omitted": true,
+                    "record_id": "30129-03",
+                    "uuid": "77e6a07c-ffa0-4844-9365-addfc951e022"
+                },
+                {
+                    "is_omitted": false,
+                    "record_id": "30129-04",
+                    "uuid": "a9d2be1c-0179-4c20-8aea-5b33e54da527"
+                },
+                {
+                    "is_omitted": false,
+                    "record_id": "30129-05",
+                    "uuid": "77d55dc7-5353-4938-ab69-8f38cddcec9b"
+                },
+                {
+                    "is_omitted": false,
+                    "record_id": "30129-06",
+                    "uuid": "137a90fe-1114-4219-b397-7d819d0cef30"
+                },
+                {
+                    "is_omitted": false,
+                    "record_id": "30129-07",
+                    "uuid": "b68a8ba1-bf1b-403f-b46a-38c7c520315b"
+                },
+                {
+                    "is_omitted": false,
+                    "record_id": "30129-08",
+                    "uuid": "1858f7fd-008e-4abb-aa5c-af07b75d9478"
+                }
+            ],
+            "decay_constants": {
+                "lambda_k_total": 5.463e-10,
+                "lambda_k_total_error": 9.998499887483122e-12
+            },
             "identifier": "30129",
-            "j": 0.00081,
-            "j_err": 8.1e-07,
-            "mean_j": 0,
-            "mean_j_err": 0,
-            "mean_j_mswd": 0,
-            "options": {},
+            "j": 0.0008038000799193896,
+            "j_err": 3.6055975692438284e-07,
+            "mean_j": 0.0008036165231261735,
+            "mean_j_err": 3.85954068382102e-07,
+            "mean_j_mswd": 1.3255674402768882,
+            "options": {
+                "interpolation_style": "Weighted Mean",
+                "model_kind": "Bracketing",
+                "monitor_age": 28.201,
+                "monitor_material": "FC-2",
+                "monitor_name": "FC-2",
+                "monitor_reference": "FC Min",
+                "monte_carlo_ntrials": 10000,
+                "predicted_j_error_type": "SD",
+                "use_monte_carlo": true,
+                "use_weighted_fit": true
+            },
             "position": 9,
-            "position_jerr": null
+            "position_jerr": 0.0
         },
         {
-            "analyses": [],
-            "decay_constants": {},
+            "analyses": [
+                {
+                    "is_omitted": false,
+                    "record_id": "30130-01",
+                    "uuid": "072ebb4f-74e5-4263-9e35-df3a61eb8361"
+                },
+                {
+                    "is_omitted": false,
+                    "record_id": "30130-02",
+                    "uuid": "ce03d4df-8178-4f3c-996e-3ab56cea7b9c"
+                },
+                {
+                    "is_omitted": false,
+                    "record_id": "30130-03",
+                    "uuid": "8e1a5bc8-cd0e-45c0-bd80-4546549205c2"
+                },
+                {
+                    "is_omitted": true,
+                    "record_id": "30130-04",
+                    "uuid": "5135c928-c968-4dca-afa1-7358848ed7d2"
+                },
+                {
+                    "is_omitted": false,
+                    "record_id": "30130-05",
+                    "uuid": "54c8b344-6650-4c07-bfa2-52593001bde1"
+                },
+                {
+                    "is_omitted": false,
+                    "record_id": "30130-06",
+                    "uuid": "2730bc0d-39c1-4af4-a4d2-5dfd52f599d6"
+                },
+                {
+                    "is_omitted": false,
+                    "record_id": "30130-07",
+                    "uuid": "c1e1878d-1290-4154-a683-885ca7ed1009"
+                },
+                {
+                    "is_omitted": false,
+                    "record_id": "30130-08",
+                    "uuid": "23daddcb-d961-42f5-8ecd-3296417c11a8"
+                }
+            ],
+            "decay_constants": {
+                "lambda_k_total": 5.463e-10,
+                "lambda_k_total_error": 9.998499887483122e-12
+            },
             "identifier": "30130",
-            "j": 0.00081,
-            "j_err": 8.1e-07,
-            "mean_j": 0,
-            "mean_j_err": 0,
-            "mean_j_mswd": 0,
-            "options": {},
+            "j": 0.0008034310027061604,
+            "j_err": 2.545951682656804e-07,
+            "mean_j": 0.0008032880869826988,
+            "mean_j_err": 3.3875036346328147e-07,
+            "mean_j_mswd": 0.4568655700689013,
+            "options": {
+                "interpolation_style": "Weighted Mean",
+                "model_kind": "Bracketing",
+                "monitor_age": 28.201,
+                "monitor_material": "FC-2",
+                "monitor_name": "FC-2",
+                "monitor_reference": "FC Min",
+                "monte_carlo_ntrials": 10000,
+                "predicted_j_error_type": "SD",
+                "use_monte_carlo": true,
+                "use_weighted_fit": true
+            },
             "position": 10,
-            "position_jerr": null
+            "position_jerr": 0.0
         },
         {
-            "analyses": [],
-            "decay_constants": {},
+            "analyses": [
+                {
+                    "is_omitted": false,
+                    "record_id": "30131-01",
+                    "uuid": "122d56c1-696f-43e7-9b65-b15e81e4f9f5"
+                },
+                {
+                    "is_omitted": true,
+                    "record_id": "30131-02",
+                    "uuid": "9fa7e5bc-52c8-4068-b021-3ee5268a8fe1"
+                },
+                {
+                    "is_omitted": false,
+                    "record_id": "30131-03",
+                    "uuid": "b3553464-097b-4664-88c2-39d1f598872c"
+                },
+                {
+                    "is_omitted": false,
+                    "record_id": "30131-04",
+                    "uuid": "d213ccec-7857-40ca-9de4-e932f2ae7223"
+                },
+                {
+                    "is_omitted": false,
+                    "record_id": "30131-05",
+                    "uuid": "c9f7c803-d451-4e74-9f06-3686d3433eac"
+                },
+                {
+                    "is_omitted": false,
+                    "record_id": "30131-06",
+                    "uuid": "3402d7f4-ef69-4421-b5ae-df312adb21db"
+                },
+                {
+                    "is_omitted": false,
+                    "record_id": "30131-07",
+                    "uuid": "887a0eac-89b7-4f37-8810-82f8f4e9a4aa"
+                },
+                {
+                    "is_omitted": false,
+                    "record_id": "30131-08",
+                    "uuid": "4744500a-6c6b-427d-b76d-0ab980d07252"
+                }
+            ],
+            "decay_constants": {
+                "lambda_k_total": 5.463e-10,
+                "lambda_k_total_error": 9.998499887483122e-12
+            },
             "identifier": "30131",
-            "j": 0.00081,
-            "j_err": 8.1e-07,
-            "mean_j": 0,
-            "mean_j_err": 0,
-            "mean_j_mswd": 0,
-            "options": {},
+            "j": 0.0008033294960855707,
+            "j_err": 4.221477727749983e-07,
+            "mean_j": 0.0008031890714990412,
+            "mean_j_err": 5.003140702622943e-07,
+            "mean_j_mswd": 1.9428871348441037,
+            "options": {
+                "interpolation_style": "Weighted Mean",
+                "model_kind": "Bracketing",
+                "monitor_age": 28.201,
+                "monitor_material": "FC-2",
+                "monitor_name": "FC-2",
+                "monitor_reference": "FC Min",
+                "monte_carlo_ntrials": 10000,
+                "predicted_j_error_type": "SD",
+                "use_monte_carlo": true,
+                "use_weighted_fit": true
+            },
             "position": 11,
-            "position_jerr": null
+            "position_jerr": 0.0
         },
         {
-            "analyses": [],
-            "decay_constants": {},
+            "analyses": [
+                {
+                    "is_omitted": false,
+                    "record_id": "30132-01",
+                    "uuid": "d6d7147f-13ca-40a1-bbd9-2513c3cf8d97"
+                },
+                {
+                    "is_omitted": true,
+                    "record_id": "30132-02",
+                    "uuid": "0f53302b-5223-49f4-b591-3ee9a48532a7"
+                },
+                {
+                    "is_omitted": false,
+                    "record_id": "30132-03",
+                    "uuid": "39c1e87d-8e43-4c41-b5de-ad0612a5dd28"
+                },
+                {
+                    "is_omitted": false,
+                    "record_id": "30132-04",
+                    "uuid": "de84a421-2d21-467c-8a8e-76ff9146ade6"
+                },
+                {
+                    "is_omitted": false,
+                    "record_id": "30132-05",
+                    "uuid": "c0215a1d-8d34-4f41-be71-8530ce4d255a"
+                },
+                {
+                    "is_omitted": true,
+                    "record_id": "30132-06",
+                    "uuid": "98789cb6-6026-469c-8333-7a0b2f2e8836"
+                },
+                {
+                    "is_omitted": false,
+                    "record_id": "30132-07",
+                    "uuid": "56c62a1c-5bbc-44c6-b5bb-9e858deb990b"
+                },
+                {
+                    "is_omitted": true,
+                    "record_id": "30132-08",
+                    "uuid": "e47d0eb4-5d93-4d11-a23d-129b845340c2"
+                }
+            ],
+            "decay_constants": {
+                "lambda_k_total": 5.463e-10,
+                "lambda_k_total_error": 9.998499887483122e-12
+            },
             "identifier": "30132",
-            "j": 0.00081,
-            "j_err": 8.1e-07,
-            "mean_j": 0,
-            "mean_j_err": 0,
-            "mean_j_mswd": 0,
-            "options": {},
+            "j": 0.0008033294960855707,
+            "j_err": 4.221477727749983e-07,
+            "mean_j": 0.0008036765558009774,
+            "mean_j_err": 7.865443992405085e-07,
+            "mean_j_mswd": 2.49981522017669,
+            "options": {
+                "interpolation_style": "Weighted Mean",
+                "model_kind": "Bracketing",
+                "monitor_age": 28.201,
+                "monitor_material": "FC-2",
+                "monitor_name": "FC-2",
+                "monitor_reference": "FC Min",
+                "monte_carlo_ntrials": 10000,
+                "predicted_j_error_type": "SD",
+                "use_monte_carlo": true,
+                "use_weighted_fit": true
+            },
             "position": 12,
-            "position_jerr": null
+            "position_jerr": 0.0
         },
         {
             "analyses": [],
-            "decay_constants": {},
+            "decay_constants": {
+                "lambda_k_total": 5.463e-10,
+                "lambda_k_total_error": 9.998499887483122e-12
+            },
             "identifier": "71836",
-            "j": 0.00081,
-            "j_err": 8.1e-07,
-            "mean_j": 0,
-            "mean_j_err": 0,
-            "mean_j_mswd": 0,
-            "options": {},
+            "j": 0.0008049773309302491,
+            "j_err": 6.079053274435027e-07,
+            "mean_j": 0.0,
+            "mean_j_err": 0.0,
+            "mean_j_mswd": 0.0,
+            "options": {
+                "interpolation_style": "Weighted Mean",
+                "model_kind": "Bracketing",
+                "monitor_age": 28.201,
+                "monitor_material": "FC-2",
+                "monitor_name": "FC-2",
+                "monitor_reference": "FC Min",
+                "monte_carlo_ntrials": 10000,
+                "predicted_j_error_type": "SD",
+                "use_monte_carlo": true,
+                "use_weighted_fit": true
+            },
             "position": 1,
-            "position_jerr": null
+            "position_jerr": 0.0
         },
         {
             "analyses": [],
-            "decay_constants": {},
+            "decay_constants": {
+                "lambda_k_total": 5.463e-10,
+                "lambda_k_total_error": 9.998499887483122e-12
+            },
             "identifier": "71837",
-            "j": 0.00081,
-            "j_err": 8.1e-07,
-            "mean_j": 0,
-            "mean_j_err": 0,
-            "mean_j_mswd": 0,
-            "options": {},
+            "j": 0.0008038000799193896,
+            "j_err": 3.6055975692438284e-07,
+            "mean_j": 0.0,
+            "mean_j_err": 0.0,
+            "mean_j_mswd": 0.0,
+            "options": {
+                "interpolation_style": "Weighted Mean",
+                "model_kind": "Bracketing",
+                "monitor_age": 28.201,
+                "monitor_material": "FC-2",
+                "monitor_name": "FC-2",
+                "monitor_reference": "FC Min",
+                "monte_carlo_ntrials": 10000,
+                "predicted_j_error_type": "SD",
+                "use_monte_carlo": true,
+                "use_weighted_fit": true
+            },
             "position": 2,
-            "position_jerr": null
+            "position_jerr": 0.0
         },
         {
             "analyses": [],
-            "decay_constants": {},
+            "decay_constants": {
+                "lambda_k_total": 5.463e-10,
+                "lambda_k_total_error": 9.998499887483122e-12
+            },
             "identifier": "71838",
-            "j": 0.00081,
-            "j_err": 8.1e-07,
-            "mean_j": 0,
-            "mean_j_err": 0,
-            "mean_j_mswd": 0,
-            "options": {},
+            "j": 0.0008034310027061604,
+            "j_err": 2.545951682656804e-07,
+            "mean_j": 0.0,
+            "mean_j_err": 0.0,
+            "mean_j_mswd": 0.0,
+            "options": {
+                "interpolation_style": "Weighted Mean",
+                "model_kind": "Bracketing",
+                "monitor_age": 28.201,
+                "monitor_material": "FC-2",
+                "monitor_name": "FC-2",
+                "monitor_reference": "FC Min",
+                "monte_carlo_ntrials": 10000,
+                "predicted_j_error_type": "SD",
+                "use_monte_carlo": true,
+                "use_weighted_fit": true
+            },
             "position": 3,
-            "position_jerr": null
+            "position_jerr": 0.0
         },
         {
             "analyses": [],
-            "decay_constants": {},
+            "decay_constants": {
+                "lambda_k_total": 5.463e-10,
+                "lambda_k_total_error": 9.998499887483122e-12
+            },
             "identifier": "71839",
-            "j": 0.00081,
-            "j_err": 8.1e-07,
-            "mean_j": 0,
-            "mean_j_err": 0,
-            "mean_j_mswd": 0,
-            "options": {},
+            "j": 0.0008032569632775626,
+            "j_err": 2.805025451222165e-07,
+            "mean_j": 0.0,
+            "mean_j_err": 0.0,
+            "mean_j_mswd": 0.0,
+            "options": {
+                "interpolation_style": "Weighted Mean",
+                "model_kind": "Bracketing",
+                "monitor_age": 28.201,
+                "monitor_material": "FC-2",
+                "monitor_name": "FC-2",
+                "monitor_reference": "FC Min",
+                "monte_carlo_ntrials": 10000,
+                "predicted_j_error_type": "SD",
+                "use_monte_carlo": true,
+                "use_weighted_fit": true
+            },
             "position": 4,
-            "position_jerr": null
+            "position_jerr": 0.0
         },
         {
             "analyses": [],
-            "decay_constants": {},
+            "decay_constants": {
+                "lambda_k_total": 5.463e-10,
+                "lambda_k_total_error": 9.998499887483122e-12
+            },
             "identifier": "71840",
-            "j": 0.00081,
-            "j_err": 8.1e-07,
-            "mean_j": 0,
-            "mean_j_err": 0,
-            "mean_j_mswd": 0,
-            "options": {},
+            "j": 0.0008033294960855707,
+            "j_err": 4.221477727749983e-07,
+            "mean_j": 0.0,
+            "mean_j_err": 0.0,
+            "mean_j_mswd": 0.0,
+            "options": {
+                "interpolation_style": "Weighted Mean",
+                "model_kind": "Bracketing",
+                "monitor_age": 28.201,
+                "monitor_material": "FC-2",
+                "monitor_name": "FC-2",
+                "monitor_reference": "FC Min",
+                "monte_carlo_ntrials": 10000,
+                "predicted_j_error_type": "SD",
+                "use_monte_carlo": true,
+                "use_weighted_fit": true
+            },
             "position": 5,
-            "position_jerr": null
+            "position_jerr": 0.0
         },
         {
             "analyses": [],
-            "decay_constants": {},
+            "decay_constants": {
+                "lambda_k_total": 5.463e-10,
+                "lambda_k_total_error": 9.998499887483122e-12
+            },
             "identifier": "71841",
-            "j": 0.00081,
-            "j_err": 8.1e-07,
-            "mean_j": 0,
-            "mean_j_err": 0,
-            "mean_j_mswd": 0,
-            "options": {},
+            "j": 0.0008043245984822063,
+            "j_err": 5.468894902999203e-07,
+            "mean_j": 0.0,
+            "mean_j_err": 0.0,
+            "mean_j_mswd": 0.0,
+            "options": {
+                "interpolation_style": "Weighted Mean",
+                "model_kind": "Bracketing",
+                "monitor_age": 28.201,
+                "monitor_material": "FC-2",
+                "monitor_name": "FC-2",
+                "monitor_reference": "FC Min",
+                "monte_carlo_ntrials": 10000,
+                "predicted_j_error_type": "SD",
+                "use_monte_carlo": true,
+                "use_weighted_fit": true
+            },
             "position": 6,
-            "position_jerr": null
+            "position_jerr": 0.0
         }
     ],
     "z": 0
