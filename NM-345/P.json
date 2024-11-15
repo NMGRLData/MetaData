@@ -3,6 +3,11 @@
         {
             "analyses": [
                 {
+                    "is_omitted": true,
+                    "record_id": "30459-08",
+                    "uuid": "3ddc8d92-1977-43ab-9da6-95e6fa3b4c2c"
+                },
+                {
                     "is_omitted": false,
                     "record_id": "30459-09",
                     "uuid": "5fb2c711-04fa-43ee-9584-569272391fa2"
@@ -43,11 +48,11 @@
                 "lambda_k_total_error": 9.998499887483122e-12
             },
             "identifier": "30459",
-            "j": 0.008011294328753625,
-            "j_err": 6.564791435885199e-06,
-            "mean_j": 0.008011294328753625,
-            "mean_j_err": 6.564791435885199e-06,
-            "mean_j_mswd": 4.747008108458849,
+            "j": 0.008011247992458712,
+            "j_err": 6.533614272319017e-06,
+            "mean_j": 0.008011247992458712,
+            "mean_j_err": 6.533614272319017e-06,
+            "mean_j_mswd": 4.725972533642942,
             "options": {
                 "interpolation_style": "Linear",
                 "model_kind": "Bracketing",
@@ -242,11 +247,11 @@
                 "lambda_k_total_error": 9.998499887483122e-12
             },
             "identifier": "30462",
-            "j": 0.00805892785323505,
-            "j_err": 1.4091303965236773e-05,
-            "mean_j": 0.00805892785323505,
-            "mean_j_err": 1.4091303965236773e-05,
-            "mean_j_mswd": 17.286059328251135,
+            "j": 0.00805889802277492,
+            "j_err": 1.408962521185349e-05,
+            "mean_j": 0.00805889802277492,
+            "mean_j_err": 1.408962521185349e-05,
+            "mean_j_mswd": 17.281595725427277,
             "options": {
                 "interpolation_style": "Linear",
                 "model_kind": "Bracketing",
@@ -310,11 +315,11 @@
                 "lambda_k_total_error": 9.998499887483122e-12
             },
             "identifier": "30463",
-            "j": 0.008052004946672927,
-            "j_err": 7.0277858125995855e-06,
-            "mean_j": 0.008052004946672927,
-            "mean_j_err": 7.027785812599585e-06,
-            "mean_j_mswd": 4.800811683524251,
+            "j": 0.008051969391706168,
+            "j_err": 7.022871863246289e-06,
+            "mean_j": 0.008051969391706168,
+            "mean_j_err": 7.022871863246289e-06,
+            "mean_j_mswd": 4.792785174677528,
             "options": {
                 "interpolation_style": "Linear",
                 "model_kind": "Bracketing",
@@ -378,11 +383,11 @@
                 "lambda_k_total_error": 9.998499887483122e-12
             },
             "identifier": "30464",
-            "j": 0.008022481842197698,
-            "j_err": 1.3756404696353836e-05,
-            "mean_j": 0.008022481842197698,
-            "mean_j_err": 1.3756404696353836e-05,
-            "mean_j_mswd": 11.918659420271593,
+            "j": 0.008022452654842532,
+            "j_err": 1.3756136710689115e-05,
+            "mean_j": 0.008022452654842532,
+            "mean_j_err": 1.3756136710689115e-05,
+            "mean_j_mswd": 11.918449839015723,
             "options": {
                 "interpolation_style": "Linear",
                 "model_kind": "Bracketing",
@@ -421,6 +426,21 @@
                     "uuid": "c20580bc-36ce-4b8c-b853-d0147d434990"
                 },
                 {
+                    "is_omitted": true,
+                    "record_id": "30465-05",
+                    "uuid": "9420d284-e43c-485f-baba-97ca3e52e4ce"
+                },
+                {
+                    "is_omitted": true,
+                    "record_id": "30465-06",
+                    "uuid": "acc000b5-d252-448e-b3a2-716e74578684"
+                },
+                {
+                    "is_omitted": true,
+                    "record_id": "30465-07",
+                    "uuid": "a2138036-dcb7-44d9-b2f1-3b683c182234"
+                },
+                {
                     "is_omitted": false,
                     "record_id": "30465-08",
                     "uuid": "ba6609b6-0fab-4f7c-889d-d7e7e96ca88c"
@@ -431,11 +451,11 @@
                 "lambda_k_total_error": 9.998499887483122e-12
             },
             "identifier": "30465",
-            "j": 0.008023349634083752,
-            "j_err": 6.197831618779067e-06,
-            "mean_j": 0.008023349634083752,
-            "mean_j_err": 6.197831618779067e-06,
-            "mean_j_mswd": 1.5325164025032525,
+            "j": 0.008023320183493426,
+            "j_err": 6.198809342644982e-06,
+            "mean_j": 0.008023320183493426,
+            "mean_j_err": 6.198809342644982e-06,
+            "mean_j_mswd": 1.5330173582527902,
             "options": {
                 "interpolation_style": "Linear",
                 "model_kind": "Bracketing",
@@ -452,17 +472,37 @@
             "position_jerr": 0.0
         },
         {
-            "analyses": [],
-            "decay_constants": {},
+            "analyses": [
+                {
+                    "is_omitted": false,
+                    "record_id": "30466-01",
+                    "uuid": "807383db-5218-4c5f-862a-073a2bb352a0"
+                }
+            ],
+            "decay_constants": {
+                "lambda_k_total": 5.463e-10,
+                "lambda_k_total_error": 9.998499887483122e-12
+            },
             "identifier": "30466",
-            "j": 0.00666,
-            "j_err": 6.660000000000001e-06,
-            "mean_j": 0,
-            "mean_j_err": 0,
-            "mean_j_mswd": 0,
-            "options": {},
+            "j": 0.00801279095660605,
+            "j_err": 0.0,
+            "mean_j": 0.00801279095660605,
+            "mean_j_err": 0.0,
+            "mean_j_mswd": 0.0,
+            "options": {
+                "interpolation_style": "Linear",
+                "model_kind": "Bracketing",
+                "monitor_age": 28.201,
+                "monitor_material": "FC-2",
+                "monitor_name": "FC-2",
+                "monitor_reference": "FC Min",
+                "monte_carlo_ntrials": 10000,
+                "predicted_j_error_type": "SD",
+                "use_monte_carlo": true,
+                "use_weighted_fit": true
+            },
             "position": 22,
-            "position_jerr": null
+            "position_jerr": 0.0
         },
         {
             "analyses": [],
@@ -471,8 +511,8 @@
                 "lambda_k_total_error": 9.998499887483122e-12
             },
             "identifier": "72183",
-            "j": 0.008056567126068753,
-            "j_err": 1.1682627921015564e-05,
+            "j": 0.008056535343538607,
+            "j_err": 1.1679845958316054e-05,
             "mean_j": 0.0,
             "mean_j_err": 0.0,
             "mean_j_mswd": 0.0,
@@ -498,8 +538,8 @@
                 "lambda_k_total_error": 9.998499887483122e-12
             },
             "identifier": "72184",
-            "j": 0.008054245285811085,
-            "j_err": 9.313628619870205e-06,
+            "j": 0.008054211583366258,
+            "j_err": 9.309761620390663e-06,
             "mean_j": 0.0,
             "mean_j_err": 0.0,
             "mean_j_mswd": 0.0,
@@ -525,8 +565,8 @@
                 "lambda_k_total_error": 9.998499887483122e-12
             },
             "identifier": "72185",
-            "j": 0.008041937598801925,
-            "j_err": 9.322237842567677e-06,
+            "j": 0.008041904215184087,
+            "j_err": 9.318908161992354e-06,
             "mean_j": 0.0,
             "mean_j_err": 0.0,
             "mean_j_mswd": 0.0,
@@ -552,8 +592,8 @@
                 "lambda_k_total_error": 9.998499887483122e-12
             },
             "identifier": "72186",
-            "j": 0.008032037446107535,
-            "j_err": 1.1578584373719873e-05,
+            "j": 0.008032006197777572,
+            "j_err": 1.1576812650911766e-05,
             "mean_j": 0.0,
             "mean_j_err": 0.0,
             "mean_j_mswd": 0.0,
@@ -579,8 +619,8 @@
                 "lambda_k_total_error": 9.998499887483122e-12
             },
             "identifier": "72187",
-            "j": 0.008022777761240042,
-            "j_err": 1.1178913776527659e-05,
+            "j": 0.008022748484121076,
+            "j_err": 1.1179070580697078e-05,
             "mean_j": 0.0,
             "mean_j_err": 0.0,
             "mean_j_mswd": 0.0,
@@ -606,8 +646,8 @@
                 "lambda_k_total_error": 9.998499887483122e-12
             },
             "identifier": "72188",
-            "j": 0.008023068805777222,
-            "j_err": 8.643880390686441e-06,
+            "j": 0.008023039440373086,
+            "j_err": 8.644454987369978e-06,
             "mean_j": 0.0,
             "mean_j_err": 0.0,
             "mean_j_mswd": 0.0,
@@ -633,8 +673,8 @@
                 "lambda_k_total_error": 9.998499887483122e-12
             },
             "identifier": "72189",
-            "j": 0.008023615608249001,
-            "j_err": 3.88116422755084e-06,
+            "j": 0.008019729728093424,
+            "j_err": 4.085021814277605e-06,
             "mean_j": 0.0,
             "mean_j_err": 0.0,
             "mean_j_mswd": 0.0,
@@ -660,8 +700,8 @@
                 "lambda_k_total_error": 9.998499887483122e-12
             },
             "identifier": "72190",
-            "j": 0.008019817982533333,
-            "j_err": 6.305334014739593e-06,
+            "j": 0.008016198901786646,
+            "j_err": 2.006339368564922e-06,
             "mean_j": 0.0,
             "mean_j_err": 0.0,
             "mean_j_mswd": 0.0,
@@ -687,8 +727,8 @@
                 "lambda_k_total_error": 9.998499887483122e-12
             },
             "identifier": "72191",
-            "j": 0.008015707096306262,
-            "j_err": 6.430468137577626e-06,
+            "j": 0.008012291552681527,
+            "j_err": 2.1147041002519282e-06,
             "mean_j": 0.0,
             "mean_j_err": 0.0,
             "mean_j_mswd": 0.0,
@@ -714,8 +754,8 @@
                 "lambda_k_total_error": 9.998499887483122e-12
             },
             "identifier": "72192",
-            "j": 0.008015788770420734,
-            "j_err": 6.796949684614791e-06,
+            "j": 0.008011774141625605,
+            "j_err": 4.305658611708534e-06,
             "mean_j": 0.0,
             "mean_j_err": 0.0,
             "mean_j_mswd": 0.0,
