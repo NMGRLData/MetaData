@@ -9,11 +9,9 @@ def main():
     info("Jan Air Sniff Pipette x1")
     gosub('jan:WaitForMiniboneAccess')
     gosub('jan:PrepareForAirShot')
-    close(name='R')
-    open(name='S')
     gosub('jan:EvacPipette2')
     gosub('common:FillPipette2')
-    close(name="M", description="Microbone to Getter NP-10H")
+    #close(name="M", description="Microbone to Getter NP-10H")
     gosub('jan:PrepareForAirShotExpansion')
     gosub('common:SniffPipette2')
 
