@@ -4973,7 +4973,14 @@
     {
         "comment": "",
         "name": "C0198",
-        "projects": [],
+        "projects": [
+            {
+                "name": "PinoA",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1467
+            }
+        ],
         "reduction_state": "notstarted",
         "run_date": "2024-07-07T10:06:15"
     },
@@ -25861,7 +25868,38 @@
     {
         "comment": "",
         "name": "C0419",
-        "projects": [],
+        "projects": [
+            {
+                "name": "ChesnerC",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1492
+            },
+            {
+                "name": "HyukJ",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1457
+            },
+            {
+                "name": "PerezGallen",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1480
+            },
+            {
+                "name": "RamosF",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1436
+            },
+            {
+                "name": "StreckM",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1474
+            }
+        ],
         "reduction_state": "notstarted",
         "run_date": "2024-05-11T10:36:31"
     },
@@ -25873,14 +25911,21 @@
         "run_date": "2024-05-15T06:37:05"
     },
     {
-        "comment": "",
+        "comment": "Not good tray under vacuum\n",
         "name": "C0421",
-        "projects": [],
+        "projects": [
+            {
+                "name": "Irradiation-NM-339",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1490
+            }
+        ],
         "reduction_state": "notstarted",
         "run_date": "2024-06-22T07:43:35"
     },
     {
-        "comment": "",
+        "comment": "Julia/Alex - All FCt bracketing / Issue with tray O: contamination from neighbor holes ",
         "completion_date": "2024-06-26T15:49:24.574179",
         "name": "C0422",
         "projects": [
@@ -25909,28 +25954,69 @@
     {
         "comment": "",
         "name": "C0423",
-        "projects": [],
+        "projects": [
+            {
+                "name": "Karlstrom",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1132
+            }
+        ],
         "reduction_state": "notstarted",
         "run_date": "2024-06-26T06:41:27"
     },
     {
         "comment": "",
         "name": "C0424",
-        "projects": [],
+        "projects": [
+            {
+                "name": "Irradiation-NM-339",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1490
+            },
+            {
+                "name": "Karlstrom",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1132
+            }
+        ],
         "reduction_state": "notstarted",
         "run_date": "2024-06-30T06:35:23"
     },
     {
-        "comment": "",
+        "comment": "JR - different counting times during analyses. Some bad regression due to saturation of the signal ",
+        "completion_date": "2025-02-21T09:42:51.909750",
         "name": "C0425",
-        "projects": [],
-        "reduction_state": "notstarted",
+        "projects": [
+            {
+                "name": "MartiJ",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1458
+            },
+            {
+                "name": "ToddeA",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1493
+            }
+        ],
+        "reduction_state": "complete",
         "run_date": "2024-07-03T08:39:37"
     },
     {
         "comment": "",
         "name": "C0426",
-        "projects": [],
+        "projects": [
+            {
+                "name": "Irradiation-NM-341",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1497
+            }
+        ],
         "reduction_state": "notstarted",
         "run_date": "2024-07-11T10:57:23"
     },
@@ -25955,28 +26041,125 @@
         "run_date": "2024-07-22T13:30:06"
     },
     {
-        "comment": "",
+        "comment": "Matt",
+        "completion_date": "2025-02-21T09:43:52.166264",
         "name": "C0428",
-        "projects": [],
-        "reduction_state": "notstarted",
+        "projects": [
+            {
+                "name": "Irradiation-NM-343",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1502
+            }
+        ],
+        "reduction_state": "complete",
         "run_date": "2024-10-29T13:14:22"
     },
     {
-        "comment": "",
+        "comment": "Matt - Same load as C0430, split for C. Henry's samples\n",
+        "completion_date": "2025-02-21T09:43:59.177631",
         "name": "C0429",
-        "projects": [],
-        "reduction_state": "notstarted",
+        "projects": [
+            {
+                "name": "HannemanD",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1526
+            },
+            {
+                "name": "Henry",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 65
+            },
+            {
+                "name": "Irradiation-NM-344",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1507
+            },
+            {
+                "name": "Irradiation-NM-345",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1527
+            }
+        ],
+        "reduction_state": "complete",
         "run_date": "2024-11-07T16:07:14"
     },
     {
-        "comment": "",
+        "comment": "Matt - Same load as C0429 / C. henry's samples\n\n",
         "name": "C0430",
-        "projects": [],
+        "projects": [
+            {
+                "name": "Henry",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 65
+            },
+            {
+                "name": "RamosF",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1436
+            }
+        ],
         "reduction_state": "notstarted",
         "run_date": "2024-11-11T17:21:39"
     },
     {
-        "comment": "Julia",
+        "comment": "C. Henry\n",
+        "completion_date": "2025-02-21T09:44:50.013080",
+        "name": "C0431",
+        "projects": [
+            {
+                "name": "GallantK",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1479
+            },
+            {
+                "name": "Henry",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 65
+            }
+        ],
+        "reduction_state": "complete",
+        "run_date": "2024-11-13T20:04:47"
+    },
+    {
+        "comment": "",
+        "name": "C0433",
+        "projects": [
+            {
+                "name": "GallantK",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1479
+            }
+        ],
+        "reduction_state": "notstarted",
+        "run_date": "2024-11-21T09:35:32"
+    },
+    {
+        "comment": "C. Henry - Same load as C0435",
+        "completion_date": "2025-02-21T09:45:34.665095",
+        "name": "C0434",
+        "projects": [
+            {
+                "name": "Henry",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 65
+            }
+        ],
+        "reduction_state": "complete",
+        "run_date": "2024-11-16T07:14:51"
+    },
+    {
+        "comment": "Julia - Same load as C0434, split in two for C. henry samples\n",
         "completion_date": "2025-01-07T12:39:26.131434",
         "name": "C0435",
         "projects": [
@@ -26007,6 +26190,13 @@
         ],
         "reduction_state": "complete",
         "run_date": "2024-11-16T18:40:49"
+    },
+    {
+        "comment": "",
+        "name": "C0436",
+        "projects": [],
+        "reduction_state": "notstarted",
+        "run_date": "2024-11-23T19:24:40"
     },
     {
         "comment": "Julia",
@@ -26102,6 +26292,13 @@
         "run_date": "2024-12-06T07:04:16"
     },
     {
+        "comment": "",
+        "name": "C0440",
+        "projects": [],
+        "reduction_state": "notstarted",
+        "run_date": "2024-12-09T06:28:25"
+    },
+    {
         "comment": "Julia - except Karsltrom's samples --> issues with repository",
         "completion_date": "2025-01-07T12:40:57.990700",
         "name": "C0441",
@@ -26168,6 +26365,61 @@
         ],
         "reduction_state": "notstarted",
         "run_date": "2025-01-02T08:24:56"
+    },
+    {
+        "comment": "Julia ",
+        "completion_date": "2025-02-21T09:46:22.963892",
+        "name": "C0444",
+        "projects": [
+            {
+                "name": "HausbackB",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1448
+            },
+            {
+                "name": "RugensteinJ",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1460
+            },
+            {
+                "name": "SterneN",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1518
+            }
+        ],
+        "reduction_state": "complete",
+        "run_date": "2024-12-28T09:37:07"
+    },
+    {
+        "comment": "",
+        "name": "C0445",
+        "projects": [],
+        "reduction_state": "notstarted",
+        "run_date": "2025-01-11T10:04:41"
+    },
+    {
+        "comment": "",
+        "name": "C0447",
+        "projects": [],
+        "reduction_state": "notstarted",
+        "run_date": "2025-01-17T09:00:39"
+    },
+    {
+        "comment": "",
+        "name": "C0448",
+        "projects": [],
+        "reduction_state": "notstarted",
+        "run_date": "2025-01-23T09:16:04"
+    },
+    {
+        "comment": "",
+        "name": "C0449",
+        "projects": [],
+        "reduction_state": "notstarted",
+        "run_date": "2025-02-13T12:07:11"
     },
     {
         "comment": "",
@@ -35253,12 +35505,25 @@
     {
         "comment": "",
         "name": "D0175",
-        "projects": [],
+        "projects": [
+            {
+                "name": "HyukJ",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1457
+            },
+            {
+                "name": "MartiJ",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1458
+            }
+        ],
         "reduction_state": "notstarted",
         "run_date": "2023-08-10T11:56:47"
     },
     {
-        "comment": "",
+        "comment": "Nels",
         "completion_date": "2024-05-15T16:45:22.441853",
         "name": "D0177",
         "projects": [
@@ -35279,7 +35544,7 @@
         "run_date": "2024-02-22T09:33:32"
     },
     {
-        "comment": "",
+        "comment": "Nels",
         "completion_date": "2024-05-15T16:45:39.117971",
         "name": "D0178",
         "projects": [
@@ -35324,7 +35589,7 @@
         "run_date": "2024-02-29T08:16:10"
     },
     {
-        "comment": "Data reduction by Julia\nExcept Matt sample: issue repository in pychron",
+        "comment": "Data reduction by Julia, except Matt sample: issue repository in pychron",
         "completion_date": "2024-05-15T16:45:53.487072",
         "name": "D0179",
         "projects": [
@@ -35375,142 +35640,34 @@
         "run_date": "2024-03-06T15:56:57"
     },
     {
-        "comment": "",
-        "completion_date": "2024-05-15T16:46:32.055365",
+        "comment": "JR ",
+        "completion_date": "2025-02-21T09:38:22.979242",
         "name": "D0180",
         "projects": [
             {
                 "name": "AttiaS",
-                "reduction_state": "notstarted",
-                "samples": [
-                    {
-                        "analysis_count": 11,
-                        "identifier": "71307",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 11,
-                        "identifier": "71308",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 12,
-                        "identifier": "71309",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 13,
-                        "identifier": "71310",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 11,
-                        "identifier": "71311",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 12,
-                        "identifier": "71312",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 11,
-                        "identifier": "71313",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 7,
-                        "identifier": "71314",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 13,
-                        "identifier": "71315",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 13,
-                        "identifier": "71316",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 13,
-                        "identifier": "71317",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 11,
-                        "identifier": "71432",
-                        "reduction_state": "no reduction"
-                    }
-                ],
+                "reduction_state": "complete",
+                "samples": [],
                 "unique_id": 1442
             },
             {
                 "name": "StreckM",
-                "reduction_state": "notstarted",
-                "samples": [
-                    {
-                        "analysis_count": 13,
-                        "identifier": "71306",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 12,
-                        "identifier": "71428",
-                        "reduction_state": "no reduction"
-                    }
-                ],
+                "reduction_state": "complete",
+                "samples": [],
                 "unique_id": 1474
             },
             {
                 "name": "Zimmerer",
-                "reduction_state": "notstarted",
-                "samples": [
-                    {
-                        "analysis_count": 11,
-                        "identifier": "71299",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 27,
-                        "identifier": "71300",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 26,
-                        "identifier": "71301",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 27,
-                        "identifier": "71302",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 26,
-                        "identifier": "71303",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 13,
-                        "identifier": "71304",
-                        "reduction_state": "no reduction"
-                    },
-                    {
-                        "analysis_count": 27,
-                        "identifier": "71305",
-                        "reduction_state": "no reduction"
-                    }
-                ],
+                "reduction_state": "complete",
+                "samples": [],
                 "unique_id": 82
             }
         ],
-        "reduction_state": "incomplete",
+        "reduction_state": "complete",
         "run_date": "2024-03-12T08:41:54"
     },
     {
-        "comment": "Julia\nIssue Gallant and Heizler repository",
+        "comment": "JR - \nIssue Gallant and Heizler repository",
         "completion_date": "2024-05-30T14:34:47.788397",
         "name": "D0181",
         "projects": [
@@ -35561,7 +35718,7 @@
         "run_date": "2024-03-17T10:00:32"
     },
     {
-        "comment": "Julia \nIssue Heizler repository",
+        "comment": "JR - \nIssue Heizler repository",
         "completion_date": "2024-05-30T14:35:11.166652",
         "name": "D0182",
         "projects": [
@@ -35600,7 +35757,7 @@
         "run_date": "2024-03-29T09:52:47"
     },
     {
-        "comment": "",
+        "comment": "JR",
         "completion_date": "2024-05-15T16:46:44.391066",
         "name": "D0183",
         "projects": [
@@ -35615,7 +35772,7 @@
         "run_date": "2024-04-02T19:37:50"
     },
     {
-        "comment": "",
+        "comment": "JR",
         "completion_date": "2024-05-15T16:46:55.654255",
         "name": "D0184",
         "projects": [
@@ -35630,7 +35787,7 @@
         "run_date": "2024-04-05T17:13:53"
     },
     {
-        "comment": "",
+        "comment": "JR",
         "completion_date": "2024-05-15T16:47:02.605063",
         "name": "D0185",
         "projects": [
@@ -35657,7 +35814,7 @@
         "run_date": "2024-04-08T20:08:12"
     },
     {
-        "comment": "",
+        "comment": "JR",
         "completion_date": "2024-05-15T16:47:16.420968",
         "name": "D0186",
         "projects": [
@@ -35723,7 +35880,7 @@
         "run_date": "2024-04-15T09:07:17"
     },
     {
-        "comment": "",
+        "comment": "JR",
         "completion_date": "2024-05-24T12:24:29.665864",
         "name": "D0188",
         "projects": [
@@ -35750,7 +35907,7 @@
         "run_date": "2024-04-21T10:47:01"
     },
     {
-        "comment": "Including 40/38 IC correction",
+        "comment": "JR - Including 40/38 IC correction",
         "completion_date": "2024-05-13T15:47:02.577884",
         "name": "D0189",
         "projects": [
@@ -35777,7 +35934,7 @@
         "run_date": "2024-04-25T06:16:17"
     },
     {
-        "comment": "Hawaii 2010 bad repository - everything else finished.  Including 40/38 IC correction. Did not include baseline uncertainty in IsoEvo to directly compare to mass spec",
+        "comment": "MH - Hawaii 2010 bad repository - everything else finished.  Including 40/38 IC correction. Did not include baseline uncertainty in IsoEvo to directly compare to mass spec",
         "name": "D0190",
         "projects": [
             {
@@ -35803,7 +35960,7 @@
         "run_date": "2024-04-28T10:15:11"
     },
     {
-        "comment": "Including 40/38 IC.  not done Heizler as repository issue",
+        "comment": "JR Including 40/38 IC.  not done Heizler as repository issue",
         "completion_date": "2024-05-13T16:10:34.795958",
         "name": "D0191",
         "projects": [
@@ -35836,7 +35993,7 @@
         "run_date": "2024-04-30T13:05:03"
     },
     {
-        "comment": "Incl 40/38 IC correction.  71510-03C did not work for iso evo and have not done Heizler (repository issue)",
+        "comment": "JR - Incl 40/38 IC correction.  71510-03C did not work for iso evo and have not done Heizler (repository issue)",
         "completion_date": "2024-05-13T16:35:36.569584",
         "name": "D0192",
         "projects": [
@@ -35863,14 +36020,27 @@
         "run_date": "2024-05-03T11:17:51"
     },
     {
-        "comment": "",
+        "comment": "Halite Matt's samples",
         "name": "D0193",
-        "projects": [],
+        "projects": [
+            {
+                "name": "Halite",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1133
+            },
+            {
+                "name": "calibration",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 126
+            }
+        ],
         "reduction_state": "notstarted",
         "run_date": "2024-05-10T06:32:17"
     },
     {
-        "comment": "",
+        "comment": "JR",
         "completion_date": "2024-07-02T11:29:15.114615",
         "name": "D0194",
         "projects": [
@@ -35903,7 +36073,7 @@
         "run_date": "2024-06-23T07:58:21"
     },
     {
-        "comment": "",
+        "comment": "JR",
         "completion_date": "2024-07-02T11:29:25.646705",
         "name": "D0195",
         "projects": [
@@ -35924,7 +36094,7 @@
         "run_date": "2024-06-27T08:35:37"
     },
     {
-        "comment": "",
+        "comment": "JR",
         "completion_date": "2024-07-08T09:08:52.518953",
         "name": "D0196",
         "projects": [
@@ -35945,7 +36115,7 @@
         "run_date": "2024-07-01T08:59:25"
     },
     {
-        "comment": "",
+        "comment": "JR",
         "completion_date": "2024-07-08T09:09:01.315907",
         "name": "D0197",
         "projects": [
@@ -35966,7 +36136,7 @@
         "run_date": "2024-07-03T16:59:45"
     },
     {
-        "comment": "",
+        "comment": "JR",
         "completion_date": "2024-09-20T12:46:10.616076",
         "name": "D0199",
         "projects": [
@@ -35999,7 +36169,7 @@
         "run_date": "2024-07-09T08:34:21"
     },
     {
-        "comment": "",
+        "comment": "JR",
         "completion_date": "2024-09-20T12:46:03.996655",
         "name": "D0200",
         "projects": [
@@ -36014,7 +36184,7 @@
         "run_date": "2024-07-11T08:31:27"
     },
     {
-        "comment": "",
+        "comment": "JR",
         "completion_date": "2024-09-20T12:45:56.013780",
         "name": "D0201",
         "projects": [
@@ -36041,7 +36211,7 @@
         "run_date": "2024-07-15T09:47:25"
     },
     {
-        "comment": "",
+        "comment": "JR",
         "completion_date": "2024-09-20T12:45:48.210705",
         "name": "D0202",
         "projects": [
@@ -36056,7 +36226,7 @@
         "run_date": "2024-07-17T11:10:39"
     },
     {
-        "comment": "",
+        "comment": "JR",
         "completion_date": "2024-09-20T12:45:39.631033",
         "name": "D0203",
         "projects": [
@@ -36071,7 +36241,7 @@
         "run_date": "2024-07-20T14:24:00"
     },
     {
-        "comment": "",
+        "comment": "JR",
         "completion_date": "2024-09-20T12:45:28.462541",
         "name": "D0204",
         "projects": [
@@ -36086,7 +36256,7 @@
         "run_date": "2024-07-23T08:54:27"
     },
     {
-        "comment": "",
+        "comment": "JR",
         "completion_date": "2024-09-20T12:45:18.161981",
         "name": "D0205",
         "projects": [
@@ -36107,7 +36277,7 @@
         "run_date": "2024-07-25T09:05:37"
     },
     {
-        "comment": "",
+        "comment": "JR - Issue with laser position\n",
         "completion_date": "2024-09-20T12:45:09.697625",
         "name": "D0206",
         "projects": [
@@ -36122,7 +36292,7 @@
         "run_date": "2024-07-30T08:30:12"
     },
     {
-        "comment": "",
+        "comment": "JR - D0206 reloaded / Re-analyzed \n",
         "completion_date": "2024-09-20T12:45:02.718388",
         "name": "D0207",
         "projects": [
@@ -36139,12 +36309,19 @@
     {
         "comment": "",
         "name": "D0208",
-        "projects": [],
+        "projects": [
+            {
+                "name": "calibration",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 126
+            }
+        ],
         "reduction_state": "notstarted",
         "run_date": "2024-09-12T14:10:53"
     },
     {
-        "comment": "",
+        "comment": "JR",
         "completion_date": "2024-11-13T16:25:15.099859",
         "name": "D0209",
         "projects": [
@@ -36165,7 +36342,7 @@
         "run_date": "2024-10-29T13:21:59"
     },
     {
-        "comment": "",
+        "comment": "JR",
         "completion_date": "2024-11-13T16:25:38.695445",
         "name": "D0210",
         "projects": [
@@ -36180,7 +36357,7 @@
         "run_date": "2024-11-01T08:40:14"
     },
     {
-        "comment": "",
+        "comment": "JR",
         "completion_date": "2024-11-13T16:25:55.248339",
         "name": "D0211",
         "projects": [
@@ -36207,11 +36384,133 @@
         "run_date": "2024-11-04T07:46:03"
     },
     {
-        "comment": "",
+        "comment": "MH",
+        "completion_date": "2025-02-21T09:32:49.339540",
         "name": "D0212",
-        "projects": [],
-        "reduction_state": "notstarted",
+        "projects": [
+            {
+                "name": "AslanA",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1456
+            },
+            {
+                "name": "Aztec",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1510
+            },
+            {
+                "name": "CorrectionFactors",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 62
+            },
+            {
+                "name": "Henry",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 65
+            },
+            {
+                "name": "Koning",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 107
+            },
+            {
+                "name": "SanJuan",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1515
+            },
+            {
+                "name": "SwansonB",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1399
+            }
+        ],
+        "reduction_state": "complete",
         "run_date": "2024-11-07T09:53:02"
+    },
+    {
+        "comment": "C. Henry - Same load as D0214\n\n",
+        "completion_date": "2025-02-21T09:32:36.603871",
+        "name": "D0213",
+        "projects": [
+            {
+                "name": "CorrectionFactors",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 62
+            },
+            {
+                "name": "Henry",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 65
+            }
+        ],
+        "reduction_state": "complete",
+        "run_date": "2024-11-15T09:07:17"
+    },
+    {
+        "comment": "JR - D0213 and D0214 same load, split in two (D0213: C. Henry's samples - D0214 others).",
+        "completion_date": "2025-02-21T09:32:34.390470",
+        "name": "D0214",
+        "projects": [
+            {
+                "name": "Aztec",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1510
+            },
+            {
+                "name": "HausbackB",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1448
+            },
+            {
+                "name": "IcelandicVolcanism",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1503
+            },
+            {
+                "name": "Medicine Lake",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1499
+            },
+            {
+                "name": "NASA",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1498
+            },
+            {
+                "name": "SanJuan",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1515
+            },
+            {
+                "name": "ThompsonL",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1508
+            },
+            {
+                "name": "ToddeA",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1493
+            }
+        ],
+        "reduction_state": "complete",
+        "run_date": "2024-11-15T18:03:55"
     },
     {
         "comment": "Matt H did complete data reduction following his notes for mass spec reduction. Omited muliple blanks while blank fitting.",
@@ -36245,6 +36544,245 @@
         ],
         "reduction_state": "complete",
         "run_date": "2024-11-26T08:31:02"
+    },
+    {
+        "comment": "JR",
+        "completion_date": "2025-02-21T09:31:33.614013",
+        "name": "D0216",
+        "projects": [
+            {
+                "name": "IcelandicVolcanism",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1503
+            },
+            {
+                "name": "Kulahci",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1505
+            }
+        ],
+        "reduction_state": "complete",
+        "run_date": "2024-12-06T07:19:26"
+    },
+    {
+        "comment": "",
+        "name": "D0217",
+        "projects": [
+            {
+                "name": "Amato_J",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1428
+            },
+            {
+                "name": "Chapman",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1525
+            },
+            {
+                "name": "HausbackB",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1448
+            },
+            {
+                "name": "KarlS",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1524
+            },
+            {
+                "name": "McLemoreG",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1523
+            },
+            {
+                "name": "RugensteinJ",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1460
+            },
+            {
+                "name": "TellezC",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1513
+            },
+            {
+                "name": "WesoloskiC",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1514
+            }
+        ],
+        "reduction_state": "notstarted",
+        "run_date": "2024-12-07T15:39:44"
+    },
+    {
+        "comment": "JR",
+        "completion_date": "2025-02-21T09:28:15.088550",
+        "name": "D0218",
+        "projects": [
+            {
+                "name": "Medicine Lake",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1499
+            }
+        ],
+        "reduction_state": "complete",
+        "run_date": "2024-12-13T08:59:59"
+    },
+    {
+        "comment": "JR\n",
+        "completion_date": "2025-02-21T09:28:03.808145",
+        "name": "D0219",
+        "projects": [
+            {
+                "name": "Medicine Lake",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1499
+            }
+        ],
+        "reduction_state": "complete",
+        "run_date": "2024-12-17T10:25:04"
+    },
+    {
+        "comment": "JR - Load abandoned because of too many laser issue, firing not the good samples and messing up all the tray\n",
+        "completion_date": "2025-02-21T09:30:28.659264",
+        "name": "D0220",
+        "projects": [
+            {
+                "name": "Hawaii",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1506
+            }
+        ],
+        "reduction_state": "complete",
+        "run_date": "2024-12-21T19:39:40"
+    },
+    {
+        "comment": "JR - Issue during analyses: Valve J opened (valve to the furnace), pumping the samples. From Jan 4th ~18h30. \nairs not good from -6620 to -6638\nCocktail not good from -3283 to -3289\n\n",
+        "completion_date": "2025-02-21T09:26:15.192774",
+        "name": "D0221",
+        "projects": [
+            {
+                "name": "Amato_J",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1428
+            },
+            {
+                "name": "Medicine Lake",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1499
+            },
+            {
+                "name": "RezeauH",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1512
+            },
+            {
+                "name": "RugensteinJ",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1460
+            },
+            {
+                "name": "ThompsonL",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1508
+            },
+            {
+                "name": "UnalA",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1511
+            }
+        ],
+        "reduction_state": "complete",
+        "run_date": "2024-12-26T11:23:45"
+    },
+    {
+        "comment": "JR - First Load 2025\n",
+        "completion_date": "2025-02-21T09:25:54.024021",
+        "name": "D0222",
+        "projects": [
+            {
+                "name": "Dotsero",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1500
+            },
+            {
+                "name": "Medicine Lake",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1499
+            },
+            {
+                "name": "NASA",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1498
+            }
+        ],
+        "reduction_state": "complete",
+        "run_date": "2025-01-07T08:49:44"
+    },
+    {
+        "comment": "JR",
+        "completion_date": "2025-02-21T09:25:48.983894",
+        "name": "D0223",
+        "projects": [
+            {
+                "name": "Hawaii",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1506
+            }
+        ],
+        "reduction_state": "complete",
+        "run_date": "2025-01-10T08:12:40"
+    },
+    {
+        "comment": "JR - First half of D0225\n",
+        "completion_date": "2025-02-21T09:24:05.475361",
+        "name": "D0224",
+        "projects": [
+            {
+                "name": "Medicine Lake",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1499
+            }
+        ],
+        "reduction_state": "complete",
+        "run_date": "2025-01-21T09:05:04"
+    },
+    {
+        "comment": "JR - D0224 and D0225 are the same load, split in two after changing Z valves and refilling the atm bottle. Change of the air count (03 to 04) in the middle of the load \n",
+        "completion_date": "2025-02-21T09:23:47.216434",
+        "name": "D0225",
+        "projects": [
+            {
+                "name": "Medicine Lake",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1499
+            }
+        ],
+        "reduction_state": "complete",
+        "run_date": "2025-02-14T09:10:30"
     },
     {
         "comment": "",
