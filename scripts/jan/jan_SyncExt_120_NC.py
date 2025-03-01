@@ -10,11 +10,11 @@ baseline:
 default_fits: nominal_linear
 equilibration:
   eqtime: 1.0
-  inlet: S
+  inlet: R
   inlet_delay: 3
   outlet: O
   use_extraction_eqtime: true
-  post_equilibration_delay: 6
+  post_equilibration_delay: 2
 multicollect:
   counts: 120
   detector: H1
