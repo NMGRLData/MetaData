@@ -2,7 +2,7 @@
 # EXTRACTION SCRIPT jan_diode.py
 #===============================================================================
 '''
-eqtime: 15
+eqtime: 12
 '''
 
 def main():
@@ -64,21 +64,34 @@ def main():
    
 
 def do_extraction():
-    info('begin interval')
-
-    begin_interval(duration)
-
-    if ramp_duration>0:
-        info(f"ramping to {extract_value} at {ramp_rate}/s units={extract_units}")
-        ramp(setpoint=extract_value, duration=ramp_duration, period=0.5)
-    else:
-        extract(extract_value, extract_units)
-
-    if pattern:
-        info(f"executing pattern {pattern}")
-        execute_pattern(pattern)
     
-    complete_interval()
+    if ramp_rate>0:
+        '''
+        style 1.
+        '''
+        #               begin_interval(duration)
+        #               info('ramping to {} at {} {}/s'.format(extract_value, ramp_rate, extract_units)
+        #               ramp(setpoint=extract_value, rate=ramp_rate)
+        #               complete_interval()
+        '''
+        style 2.
+        '''
+        elapsed=ramp(setpoint=extract_value, rate=ramp_rate)
+        pelapsed=execute_pattern(pattern)
+        sleep(min(0, duration-elapsed-pelapsed))
+
+    else:
+        begin_interval(duration)
+        
+        info('set extract to {} ({})'.format(extract_value, extract_units))
+        extract()
+        sleep(2)
+
+        if pattern:
+            info('executing pattern {}'.format(pattern))
+            execute_pattern(pattern)
+
+        complete_interval()
 
 
 #===============================================================================
@@ -108,3 +121,11 @@ def main():
     info('Pumping spectrometer')
     open(name='O', cancel_on_failed_actuation=False)
     
+    # setup dynamic pumping
+    # delay extra time of the ar40 intensity is greater than a set threshold
+    
+    ar40intensity = get_intensity('H1')
+    if ar40intensity> 4900:
+        sleep(20)
+    elif ar40intensity>3000:
+        sleep(10)
