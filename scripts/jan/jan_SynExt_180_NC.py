@@ -12,7 +12,7 @@ equilibration:
   eqtime: 1.0
   inlet: R
   inlet_delay: 3
-  outlet: O
+  outlet: 5
   use_extraction_eqtime: true
   post_equilibration_delay: 0
 multicollect:
