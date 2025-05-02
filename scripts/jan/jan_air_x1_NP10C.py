@@ -13,6 +13,7 @@ def main():
     gosub('common:FillPipette2')
     gosub('jan:PrepareForAirShotExpansion')
     gosub('common:ExpandPipette2')
+    sleep(duration=10.0)
     close(name="Q", description="Quad Inlet")
     sleep(duration=2.0)
     open(name="L", description="Microbone to Minibone")
