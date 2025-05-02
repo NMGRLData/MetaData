@@ -15,6 +15,7 @@ def main():
     gosub('common:ExpandPipette2')
     sleep(duration=10.0)
     close(name="Q", description="Quad Inlet")
+    close(name="U", description="Microbone to Turbo")
     sleep(duration=2.0)
     open(name="L", description="Microbone to Minibone")
     sleep(duration=10.0)
@@ -27,7 +28,7 @@ def main():
     close(name="U", description="Microbone to Turbo")
     sleep(duration=2.0)
     open(name="K", description="Microbone to Getter NP-10C")
-    sleep(duration=10.0)
+    sleep(duration=5.0)
 
 
 #===============================================================================
