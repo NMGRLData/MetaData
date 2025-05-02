@@ -832,6 +832,13 @@
         "run_date": "2018-11-06T08:01:25"
     },
     {
+        "comment": "Load for testing",
+        "name": "C001",
+        "projects": [],
+        "reduction_state": "notstarted",
+        "run_date": "2025-04-30T19:06:11"
+    },
+    {
         "comment": "",
         "name": "C0010",
         "projects": [],
@@ -26706,9 +26713,36 @@
     {
         "comment": "",
         "name": "C0458",
-        "projects": [],
+        "projects": [
+            {
+                "name": "Elephant Butte",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1157
+            },
+            {
+                "name": "Koning",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 107
+            }
+        ],
         "reduction_state": "notstarted",
         "run_date": "2025-04-23T06:38:31"
+    },
+    {
+        "comment": "",
+        "name": "C0459",
+        "projects": [
+            {
+                "name": "Irradiation-NM-347",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1537
+            }
+        ],
+        "reduction_state": "notstarted",
+        "run_date": "2025-04-28T21:03:32"
     },
     {
         "comment": "",
@@ -37321,11 +37355,50 @@
         "run_date": "2025-04-18T20:23:33"
     },
     {
-        "comment": "",
+        "comment": "JR",
+        "completion_date": "2025-05-02T17:06:58.636220",
         "name": "D0236",
+        "projects": [
+            {
+                "name": "Fint",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1531
+            },
+            {
+                "name": "Goughnour",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1532
+            },
+            {
+                "name": "Peppe",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1533
+            },
+            {
+                "name": "Rendija",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1365
+            },
+            {
+                "name": "SRVF",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1535
+            }
+        ],
+        "reduction_state": "complete",
+        "run_date": "2025-04-25T08:39:54"
+    },
+    {
+        "comment": "",
+        "name": "D0237",
         "projects": [],
         "reduction_state": "notstarted",
-        "run_date": "2025-04-25T08:39:54"
+        "run_date": "2025-04-30T21:31:07"
     },
     {
         "comment": "",
