@@ -21,10 +21,10 @@ def main():
     close(name="L", description="Microbone to Minibone")
     close(name="K", description="Microbone to Getter NP-10C")
     sleep(duration=2.0)
-    open(name="U")
+    open(name="U", description="Microbone to Turbo")
     sleep(duration=15.0)
-    close(name="U")
-    open(name="k")
+    close(name="U", description="Microbone to Turbo")
+    open(name="k", description="Microbone to Getter NP-10C")
     sleep(duration=10.0)
 
 
