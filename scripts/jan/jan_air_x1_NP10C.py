@@ -24,7 +24,7 @@ def main():
     open(name="U", description="Microbone to Turbo")
     sleep(duration=15.0)
     close(name="U", description="Microbone to Turbo")
-    open(name="k", description="Microbone to Getter NP-10C")
+    open(name="K", description="Microbone to Getter NP-10C")
     sleep(duration=10.0)
 
 
