@@ -26711,7 +26711,8 @@
         "run_date": "2025-04-18T20:27:00"
     },
     {
-        "comment": "",
+        "comment": "JR",
+        "completion_date": "2025-05-05T16:59:12.283179",
         "name": "C0458",
         "projects": [
             {
@@ -26727,11 +26728,12 @@
                 "unique_id": 107
             }
         ],
-        "reduction_state": "notstarted",
+        "reduction_state": "complete",
         "run_date": "2025-04-23T06:38:31"
     },
     {
-        "comment": "",
+        "comment": "JR - FC-2 bracketing",
+        "completion_date": "2025-05-05T16:59:22.916304",
         "name": "C0459",
         "projects": [
             {
@@ -26741,8 +26743,15 @@
                 "unique_id": 1537
             }
         ],
-        "reduction_state": "notstarted",
+        "reduction_state": "complete",
         "run_date": "2025-04-28T21:03:32"
+    },
+    {
+        "comment": "",
+        "name": "C0460",
+        "projects": [],
+        "reduction_state": "notstarted",
+        "run_date": "2025-05-02T19:48:36"
     },
     {
         "comment": "",
@@ -37396,7 +37405,44 @@
     {
         "comment": "",
         "name": "D0237",
-        "projects": [],
+        "projects": [
+            {
+                "name": "Elephant Butte",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1157
+            },
+            {
+                "name": "GodoyB",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1536
+            },
+            {
+                "name": "KarsliO",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1483
+            },
+            {
+                "name": "Koning",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 107
+            },
+            {
+                "name": "SRVF",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1535
+            },
+            {
+                "name": "Zimmerer",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 82
+            }
+        ],
         "reduction_state": "notstarted",
         "run_date": "2025-04-30T21:31:07"
     },
