@@ -8,12 +8,12 @@ eqtime: 12
 def main():
     info("Jan Air Sniff Pipette x1")
     gosub('jan:WaitForMiniboneAccess')
-    close(name="S", description="Microbone to Inlet Pipette")
     gosub('jan:PrepareForAirShot')
     close(name="Q", description="Quad Inlet")
     gosub('jan:EvacPipette2')
     gosub('common:FillPipette2')
     gosub('jan:PrepareForAirShotExpansion')
+    gosub('common:ExpandPipette2')
     gosub('common:SniffPipette2')
 
 #===============================================================================
