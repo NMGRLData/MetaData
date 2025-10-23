@@ -26584,7 +26584,8 @@
         "run_date": "2025-03-01T12:01:00"
     },
     {
-        "comment": "",
+        "comment": "JR",
+        "completion_date": "2025-10-23T15:53:00.453483",
         "name": "C0452",
         "projects": [
             {
@@ -26612,7 +26613,7 @@
                 "unique_id": 1519
             }
         ],
-        "reduction_state": "notstarted",
+        "reduction_state": "complete",
         "run_date": "2025-03-21T22:28:45"
     },
     {
@@ -26652,7 +26653,23 @@
         "run_date": "2025-03-17T17:25:39"
     },
     {
-        "comment": "",
+        "comment": "JR",
+        "completion_date": "2025-10-23T15:52:19.624240",
+        "name": "C0455",
+        "projects": [
+            {
+                "name": "Mayotte",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1528
+            }
+        ],
+        "reduction_state": "complete",
+        "run_date": "2025-09-30T09:28:45"
+    },
+    {
+        "comment": "JR",
+        "completion_date": "2025-10-23T15:52:48.198369",
         "name": "C0456",
         "projects": [
             {
@@ -26674,7 +26691,7 @@
                 "unique_id": 1493
             }
         ],
-        "reduction_state": "notstarted",
+        "reduction_state": "complete",
         "run_date": "2025-04-12T06:26:16"
     },
     {
@@ -26830,7 +26847,20 @@
     {
         "comment": "",
         "name": "C0463",
-        "projects": [],
+        "projects": [
+            {
+                "name": "Bidouoche",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1539
+            },
+            {
+                "name": "Cather",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 85
+            }
+        ],
         "reduction_state": "notstarted",
         "run_date": "2025-05-15T17:56:49"
     },
@@ -26847,6 +26877,47 @@
         ],
         "reduction_state": "incomplete",
         "run_date": "2025-05-19T19:05:57"
+    },
+    {
+        "comment": "",
+        "name": "C0465",
+        "projects": [
+            {
+                "name": "Goughnour",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1532
+            }
+        ],
+        "reduction_state": "notstarted",
+        "run_date": "2025-10-22T18:56:53"
+    },
+    {
+        "comment": "",
+        "name": "C0468",
+        "projects": [],
+        "reduction_state": "notstarted",
+        "run_date": "2025-10-16T07:48:08"
+    },
+    {
+        "comment": "",
+        "name": "C0469",
+        "projects": [
+            {
+                "name": "HannemanD",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1526
+            },
+            {
+                "name": "Irradiation-NM-349",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1546
+            }
+        ],
+        "reduction_state": "notstarted",
+        "run_date": "2025-10-16T20:35:48"
     },
     {
         "comment": "",
@@ -37629,11 +37700,139 @@
         "run_date": "2025-05-15T18:05:06"
     },
     {
-        "comment": "",
+        "comment": "JR",
+        "completion_date": "2025-10-23T15:54:27.706036",
         "name": "D0241",
+        "projects": [
+            {
+                "name": "Bidouoche",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1539
+            },
+            {
+                "name": "ChamberlinR",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1481
+            },
+            {
+                "name": "KarsliO",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1483
+            },
+            {
+                "name": "Peppe",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1533
+            },
+            {
+                "name": "Rendija",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1365
+            },
+            {
+                "name": "RicciJ",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1496
+            }
+        ],
+        "reduction_state": "complete",
+        "run_date": "2025-05-21T09:55:21"
+    },
+    {
+        "comment": "",
+        "name": "D0242",
+        "projects": [
+            {
+                "name": "Bidouoche",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1539
+            },
+            {
+                "name": "CorrectionFactors",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 62
+            },
+            {
+                "name": "GodoyB",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1536
+            },
+            {
+                "name": "Goughnour",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1532
+            },
+            {
+                "name": "Hinz01101",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1101
+            },
+            {
+                "name": "Karlstrom",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1132
+            },
+            {
+                "name": "KrupnickJ",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1475
+            },
+            {
+                "name": "UnalA",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1511
+            }
+        ],
+        "reduction_state": "notstarted",
+        "run_date": "2025-09-12T11:27:23"
+    },
+    {
+        "comment": "",
+        "name": "D0243",
         "projects": [],
         "reduction_state": "notstarted",
-        "run_date": "2025-05-21T09:55:21"
+        "run_date": "2025-05-29T09:34:26"
+    },
+    {
+        "comment": "NI",
+        "completion_date": "2025-10-23T15:54:44.121395",
+        "name": "D0245",
+        "projects": [
+            {
+                "name": "CorrectionFactors",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 62
+            },
+            {
+                "name": "IversonN",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1461
+            },
+            {
+                "name": "SheeksD",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1545
+            }
+        ],
+        "reduction_state": "complete",
+        "run_date": "2025-09-25T12:43:34"
     },
     {
         "comment": "",
