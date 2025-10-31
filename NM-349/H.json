@@ -38,7 +38,7 @@
                     "uuid": "13799333-f905-4866-9ad4-aa97a2b67de2"
                 },
                 {
-                    "is_omitted": true,
+                    "is_omitted": false,
                     "record_id": "31086-08",
                     "uuid": "b8b95eba-943f-4fb0-a546-6bccc6bee123"
                 }
@@ -48,11 +48,11 @@
                 "lambda_k_total_error": 9.998499887483122e-12
             },
             "identifier": "31086",
-            "j": 0.005650161796204637,
-            "j_err": 4.881145265084328e-06,
-            "mean_j": 0.005657488241003345,
-            "mean_j_err": 7.70185176456009e-06,
-            "mean_j_mswd": 26.74346479586869,
+            "j": 0.005650408445226702,
+            "j_err": 1.738199080416065e-06,
+            "mean_j": 0.005658492976915625,
+            "mean_j_err": 2.7840165411385802e-06,
+            "mean_j_mswd": 26.64675743908934,
             "options": {
                 "interpolation_style": "Weighted Mean",
                 "model_kind": "Bracketing",
@@ -61,7 +61,7 @@
                 "monitor_name": "FC-2",
                 "monitor_reference": "FC Min",
                 "monte_carlo_ntrials": 10000,
-                "predicted_j_error_type": "SD",
+                "predicted_j_error_type": "SE but if MSWD>1 use SE * sqrt(MSWD)",
                 "use_monte_carlo": true,
                 "use_weighted_fit": true
             },
@@ -75,8 +75,8 @@
                 "lambda_k_total_error": 9.998499887483122e-12
             },
             "identifier": "72816",
-            "j": 0.005650161796204637,
-            "j_err": 4.881145265084328e-06,
+            "j": 0.005650408445226702,
+            "j_err": 1.738199080416065e-06,
             "mean_j": 0.0,
             "mean_j_err": 0.0,
             "mean_j_mswd": 0.0,
@@ -88,7 +88,7 @@
                 "monitor_name": "FC-2",
                 "monitor_reference": "FC Min",
                 "monte_carlo_ntrials": 10000,
-                "predicted_j_error_type": "SD",
+                "predicted_j_error_type": "SE but if MSWD>1 use SE * sqrt(MSWD)",
                 "use_monte_carlo": true,
                 "use_weighted_fit": true
             },
@@ -102,8 +102,8 @@
                 "lambda_k_total_error": 9.998499887483122e-12
             },
             "identifier": "72817",
-            "j": 0.005650161796204637,
-            "j_err": 4.881145265084328e-06,
+            "j": 0.005650408445226702,
+            "j_err": 1.738199080416065e-06,
             "mean_j": 0.0,
             "mean_j_err": 0.0,
             "mean_j_mswd": 0.0,
@@ -115,7 +115,7 @@
                 "monitor_name": "FC-2",
                 "monitor_reference": "FC Min",
                 "monte_carlo_ntrials": 10000,
-                "predicted_j_error_type": "SD",
+                "predicted_j_error_type": "SE but if MSWD>1 use SE * sqrt(MSWD)",
                 "use_monte_carlo": true,
                 "use_weighted_fit": true
             },
@@ -170,10 +170,10 @@
                 "lambda_k_total_error": 9.998499887483122e-12
             },
             "identifier": "31087",
-            "j": 0.005650161796204637,
-            "j_err": 4.881145265084328e-06,
+            "j": 0.005650408445226702,
+            "j_err": 1.738199080416065e-06,
             "mean_j": 0.005645243725662545,
-            "mean_j_err": 6.310240208423785e-06,
+            "mean_j_err": 2.2251933324730538e-06,
             "mean_j_mswd": 15.504836106545554,
             "options": {
                 "interpolation_style": "Weighted Mean",
@@ -183,7 +183,7 @@
                 "monitor_name": "FC-2",
                 "monitor_reference": "FC Min",
                 "monte_carlo_ntrials": 10000,
-                "predicted_j_error_type": "SD",
+                "predicted_j_error_type": "SE but if MSWD>1 use SE * sqrt(MSWD)",
                 "use_monte_carlo": true,
                 "use_weighted_fit": true
             },
@@ -197,8 +197,8 @@
                 "lambda_k_total_error": 9.998499887483122e-12
             },
             "identifier": "72818",
-            "j": 0.005635622509146084,
-            "j_err": 3.168347893680069e-06,
+            "j": 0.005635486134603361,
+            "j_err": 1.09351815555138e-06,
             "mean_j": 0.0,
             "mean_j_err": 0.0,
             "mean_j_mswd": 0.0,
@@ -210,7 +210,7 @@
                 "monitor_name": "FC-2",
                 "monitor_reference": "FC Min",
                 "monte_carlo_ntrials": 10000,
-                "predicted_j_error_type": "SD",
+                "predicted_j_error_type": "SE but if MSWD>1 use SE * sqrt(MSWD)",
                 "use_monte_carlo": true,
                 "use_weighted_fit": true
             },
@@ -224,8 +224,8 @@
                 "lambda_k_total_error": 9.998499887483122e-12
             },
             "identifier": "72819",
-            "j": 0.005635622509146084,
-            "j_err": 3.168347893680069e-06,
+            "j": 0.005635486134603361,
+            "j_err": 1.09351815555138e-06,
             "mean_j": 0.0,
             "mean_j_err": 0.0,
             "mean_j_mswd": 0.0,
@@ -237,7 +237,7 @@
                 "monitor_name": "FC-2",
                 "monitor_reference": "FC Min",
                 "monte_carlo_ntrials": 10000,
-                "predicted_j_error_type": "SD",
+                "predicted_j_error_type": "SE but if MSWD>1 use SE * sqrt(MSWD)",
                 "use_monte_carlo": true,
                 "use_weighted_fit": true
             },
@@ -292,10 +292,10 @@
                 "lambda_k_total_error": 9.998499887483122e-12
             },
             "identifier": "31088",
-            "j": 0.005635622509146084,
-            "j_err": 3.168347893680069e-06,
+            "j": 0.005635486134603361,
+            "j_err": 1.09351815555138e-06,
             "mean_j": 0.005632379405968856,
-            "mean_j_err": 3.663627247840533e-06,
+            "mean_j_err": 1.2555907387405803e-06,
             "mean_j_mswd": 5.134761121074685,
             "options": {
                 "interpolation_style": "Weighted Mean",
@@ -305,7 +305,7 @@
                 "monitor_name": "FC-2",
                 "monitor_reference": "FC Min",
                 "monte_carlo_ntrials": 10000,
-                "predicted_j_error_type": "SD",
+                "predicted_j_error_type": "SE but if MSWD>1 use SE * sqrt(MSWD)",
                 "use_monte_carlo": true,
                 "use_weighted_fit": true
             },
@@ -319,8 +319,8 @@
                 "lambda_k_total_error": 9.998499887483122e-12
             },
             "identifier": "72820",
-            "j": 0.005632036725710266,
-            "j_err": 2.9631773169021377e-06,
+            "j": 0.005632070825953996,
+            "j_err": 1.0419031757954255e-06,
             "mean_j": 0.0,
             "mean_j_err": 0.0,
             "mean_j_mswd": 0.0,
@@ -332,7 +332,7 @@
                 "monitor_name": "FC-2",
                 "monitor_reference": "FC Min",
                 "monte_carlo_ntrials": 10000,
-                "predicted_j_error_type": "SD",
+                "predicted_j_error_type": "SE but if MSWD>1 use SE * sqrt(MSWD)",
                 "use_monte_carlo": true,
                 "use_weighted_fit": true
             },
@@ -346,8 +346,8 @@
                 "lambda_k_total_error": 9.998499887483122e-12
             },
             "identifier": "72821",
-            "j": 0.005632036725710266,
-            "j_err": 2.9631773169021377e-06,
+            "j": 0.005632070825953996,
+            "j_err": 1.0419031757954255e-06,
             "mean_j": 0.0,
             "mean_j_err": 0.0,
             "mean_j_mswd": 0.0,
@@ -359,7 +359,7 @@
                 "monitor_name": "FC-2",
                 "monitor_reference": "FC Min",
                 "monte_carlo_ntrials": 10000,
-                "predicted_j_error_type": "SD",
+                "predicted_j_error_type": "SE but if MSWD>1 use SE * sqrt(MSWD)",
                 "use_monte_carlo": true,
                 "use_weighted_fit": true
             },
@@ -394,6 +394,11 @@
                     "uuid": "c3e51ca8-5850-416e-8375-a09f8cae23aa"
                 },
                 {
+                    "is_omitted": true,
+                    "record_id": "31089-06",
+                    "uuid": "6abaabb4-108e-4d7e-840a-595966a06217"
+                },
+                {
                     "is_omitted": false,
                     "record_id": "31089-07",
                     "uuid": "49e465f8-b4db-4b02-b3db-9da9260df537"
@@ -409,10 +414,10 @@
                 "lambda_k_total_error": 9.998499887483122e-12
             },
             "identifier": "31089",
-            "j": 0.005632036725710266,
-            "j_err": 2.9631773169021377e-06,
+            "j": 0.005632070825953996,
+            "j_err": 1.0419031757954255e-06,
             "mean_j": 0.005631388504693961,
-            "mean_j_err": 5.0388135795424435e-06,
+            "mean_j_err": 1.8670616459978033e-06,
             "mean_j_mswd": 8.797175947071253,
             "options": {
                 "interpolation_style": "Weighted Mean",
@@ -422,7 +427,7 @@
                 "monitor_name": "FC-2",
                 "monitor_reference": "FC Min",
                 "monte_carlo_ntrials": 10000,
-                "predicted_j_error_type": "SD",
+                "predicted_j_error_type": "SE but if MSWD>1 use SE * sqrt(MSWD)",
                 "use_monte_carlo": true,
                 "use_weighted_fit": true
             },
@@ -436,8 +441,8 @@
                 "lambda_k_total_error": 9.998499887483122e-12
             },
             "identifier": "72822",
-            "j": 0.00563303197078963,
-            "j_err": 2.817302428687852e-06,
+            "j": 0.00563169511713426,
+            "j_err": 1.3406370403224676e-06,
             "mean_j": 0.0,
             "mean_j_err": 0.0,
             "mean_j_mswd": 0.0,
@@ -449,7 +454,7 @@
                 "monitor_name": "FC-2",
                 "monitor_reference": "FC Min",
                 "monte_carlo_ntrials": 10000,
-                "predicted_j_error_type": "SD",
+                "predicted_j_error_type": "SE but if MSWD>1 use SE * sqrt(MSWD)",
                 "use_monte_carlo": true,
                 "use_weighted_fit": true
             },
@@ -463,8 +468,8 @@
                 "lambda_k_total_error": 9.998499887483122e-12
             },
             "identifier": "72823",
-            "j": 0.00563303197078963,
-            "j_err": 2.817302428687852e-06,
+            "j": 0.00563169511713426,
+            "j_err": 1.3406370403224676e-06,
             "mean_j": 0.0,
             "mean_j_err": 0.0,
             "mean_j_mswd": 0.0,
@@ -476,7 +481,7 @@
                 "monitor_name": "FC-2",
                 "monitor_reference": "FC Min",
                 "monte_carlo_ntrials": 10000,
-                "predicted_j_error_type": "SD",
+                "predicted_j_error_type": "SE but if MSWD>1 use SE * sqrt(MSWD)",
                 "use_monte_carlo": true,
                 "use_weighted_fit": true
             },
@@ -511,7 +516,7 @@
                     "uuid": "b974473b-154d-4978-96bf-456e14e864b6"
                 },
                 {
-                    "is_omitted": true,
+                    "is_omitted": false,
                     "record_id": "31090-06",
                     "uuid": "2d7aed76-a61e-473a-af31-79db7753438a"
                 },
@@ -531,11 +536,11 @@
                 "lambda_k_total_error": 9.998499887483122e-12
             },
             "identifier": "31090",
-            "j": 0.00563303197078963,
-            "j_err": 2.817302428687852e-06,
-            "mean_j": 0.005633779402127975,
-            "mean_j_err": 3.3980797569581793e-06,
-            "mean_j_mswd": 4.8495342163031365,
+            "j": 0.00563169511713426,
+            "j_err": 1.3406370403224676e-06,
+            "mean_j": 0.005632021466259923,
+            "mean_j_err": 1.9262160554717285e-06,
+            "mean_j_mswd": 11.709515396128324,
             "options": {
                 "interpolation_style": "Weighted Mean",
                 "model_kind": "Bracketing",
@@ -544,7 +549,7 @@
                 "monitor_name": "FC-2",
                 "monitor_reference": "FC Min",
                 "monte_carlo_ntrials": 10000,
-                "predicted_j_error_type": "SD",
+                "predicted_j_error_type": "SE but if MSWD>1 use SE * sqrt(MSWD)",
                 "use_monte_carlo": true,
                 "use_weighted_fit": true
             },
@@ -558,8 +563,8 @@
                 "lambda_k_total_error": 9.998499887483122e-12
             },
             "identifier": "72824",
-            "j": 0.00563552015955363,
-            "j_err": 2.9502862882299315e-06,
+            "j": 0.005634694070451123,
+            "j_err": 1.6084560063947722e-06,
             "mean_j": 0.0,
             "mean_j_err": 0.0,
             "mean_j_mswd": 0.0,
@@ -571,7 +576,7 @@
                 "monitor_name": "FC-2",
                 "monitor_reference": "FC Min",
                 "monte_carlo_ntrials": 10000,
-                "predicted_j_error_type": "SD",
+                "predicted_j_error_type": "SE but if MSWD>1 use SE * sqrt(MSWD)",
                 "use_monte_carlo": true,
                 "use_weighted_fit": true
             },
@@ -585,8 +590,8 @@
                 "lambda_k_total_error": 9.998499887483122e-12
             },
             "identifier": "72825",
-            "j": 0.00563552015955363,
-            "j_err": 2.9502862882299315e-06,
+            "j": 0.005634694070451123,
+            "j_err": 1.6084560063947722e-06,
             "mean_j": 0.0,
             "mean_j_err": 0.0,
             "mean_j_mswd": 0.0,
@@ -598,7 +603,7 @@
                 "monitor_name": "FC-2",
                 "monitor_reference": "FC Min",
                 "monte_carlo_ntrials": 10000,
-                "predicted_j_error_type": "SD",
+                "predicted_j_error_type": "SE but if MSWD>1 use SE * sqrt(MSWD)",
                 "use_monte_carlo": true,
                 "use_weighted_fit": true
             },
@@ -613,9 +618,19 @@
                     "uuid": "7fcdcd42-fef3-4e29-b965-0d1ab3261581"
                 },
                 {
+                    "is_omitted": true,
+                    "record_id": "31091-02",
+                    "uuid": "a8cc5242-706c-465d-8e84-190d4b4ae8da"
+                },
+                {
                     "is_omitted": false,
                     "record_id": "31091-03",
                     "uuid": "b140f999-9738-4199-bf65-0dc75ebe834b"
+                },
+                {
+                    "is_omitted": true,
+                    "record_id": "31091-04",
+                    "uuid": "a9240e8e-2127-4716-8b1b-57e9434b8407"
                 },
                 {
                     "is_omitted": false,
@@ -643,10 +658,10 @@
                 "lambda_k_total_error": 9.998499887483122e-12
             },
             "identifier": "31091",
-            "j": 0.00563552015955363,
-            "j_err": 2.9502862882299315e-06,
+            "j": 0.005634694070451123,
+            "j_err": 1.6084560063947722e-06,
             "mean_j": 0.005640850155308425,
-            "mean_j_err": 5.946040615366099e-06,
+            "mean_j_err": 2.9234116595444985e-06,
             "mean_j_mswd": 13.697806984616912,
             "options": {
                 "interpolation_style": "Weighted Mean",
@@ -656,7 +671,7 @@
                 "monitor_name": "FC-2",
                 "monitor_reference": "FC Min",
                 "monte_carlo_ntrials": 10000,
-                "predicted_j_error_type": "SD",
+                "predicted_j_error_type": "SE but if MSWD>1 use SE * sqrt(MSWD)",
                 "use_monte_carlo": true,
                 "use_weighted_fit": true
             },
@@ -670,8 +685,8 @@
                 "lambda_k_total_error": 9.998499887483122e-12
             },
             "identifier": "72826",
-            "j": 0.005647309269911987,
-            "j_err": 4.083696421632718e-06,
+            "j": 0.005649255191019391,
+            "j_err": 1.6342880277738483e-06,
             "mean_j": 0.0,
             "mean_j_err": 0.0,
             "mean_j_mswd": 0.0,
@@ -683,7 +698,7 @@
                 "monitor_name": "FC-2",
                 "monitor_reference": "FC Min",
                 "monte_carlo_ntrials": 10000,
-                "predicted_j_error_type": "SD",
+                "predicted_j_error_type": "SE but if MSWD>1 use SE * sqrt(MSWD)",
                 "use_monte_carlo": true,
                 "use_weighted_fit": true
             },
@@ -738,10 +753,10 @@
                 "lambda_k_total_error": 9.998499887483122e-12
             },
             "identifier": "31092",
-            "j": 0.005647309269911987,
-            "j_err": 4.083696421632718e-06,
+            "j": 0.005649255191019391,
+            "j_err": 1.6342880277738483e-06,
             "mean_j": 0.005653076010206859,
-            "mean_j_err": 5.618321312920461e-06,
+            "mean_j_err": 1.9710536082544516e-06,
             "mean_j_mswd": 12.887668622777571,
             "options": {
                 "interpolation_style": "Weighted Mean",
@@ -751,7 +766,7 @@
                 "monitor_name": "FC-2",
                 "monitor_reference": "FC Min",
                 "monte_carlo_ntrials": 10000,
-                "predicted_j_error_type": "SD",
+                "predicted_j_error_type": "SE but if MSWD>1 use SE * sqrt(MSWD)",
                 "use_monte_carlo": true,
                 "use_weighted_fit": true
             },
@@ -806,10 +821,10 @@
                 "lambda_k_total_error": 9.998499887483122e-12
             },
             "identifier": "31093",
-            "j": 0.005659452464667207,
-            "j_err": 5.153796058270173e-06,
+            "j": 0.005659973159530486,
+            "j_err": 1.8043368142826299e-06,
             "mean_j": 0.005661045195956707,
-            "mean_j_err": 6.935390866118515e-06,
+            "mean_j_err": 2.3692938816964865e-06,
             "mean_j_mswd": 20.31451638697731,
             "options": {
                 "interpolation_style": "Weighted Mean",
@@ -819,7 +834,7 @@
                 "monitor_name": "FC-2",
                 "monitor_reference": "FC Min",
                 "monte_carlo_ntrials": 10000,
-                "predicted_j_error_type": "SD",
+                "predicted_j_error_type": "SE but if MSWD>1 use SE * sqrt(MSWD)",
                 "use_monte_carlo": true,
                 "use_weighted_fit": true
             },
