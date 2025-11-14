@@ -26879,7 +26879,7 @@
         "run_date": "2025-05-19T19:05:57"
     },
     {
-        "comment": "",
+        "comment": "JR - Co464 and C0465 : Load split in two: FC-2 / Samples. Issue with motion controller in middle of C0464 ",
         "name": "C0465",
         "projects": [
             {
@@ -26889,7 +26889,7 @@
                 "unique_id": 1532
             }
         ],
-        "reduction_state": "notstarted",
+        "reduction_state": "incomplete",
         "run_date": "2025-10-22T18:56:53"
     },
     {
@@ -26902,19 +26902,53 @@
     {
         "comment": "",
         "name": "C0467",
-        "projects": [],
+        "projects": [
+            {
+                "name": "Elephant Butte",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1157
+            },
+            {
+                "name": "HobbsK",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1446
+            },
+            {
+                "name": "Koning",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 107
+            }
+        ],
         "reduction_state": "notstarted",
         "run_date": "2025-11-01T22:27:48"
     },
     {
-        "comment": "",
+        "comment": "NI - C0468 and C0469 same tray split in 2 for std and samples",
+        "completion_date": "2025-11-13T21:37:50.573641",
         "name": "C0468",
-        "projects": [],
-        "reduction_state": "notstarted",
+        "projects": [
+            {
+                "name": "Irradiation-NM-348",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1541
+            },
+            {
+                "name": "Irradiation-NM-349",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1546
+            }
+        ],
+        "reduction_state": "complete",
         "run_date": "2025-10-16T07:48:08"
     },
     {
-        "comment": "",
+        "comment": "NI - C0468 and C0469 same tray split in 2 for std and samples",
+        "completion_date": "2025-11-13T21:37:41.742180",
         "name": "C0469",
         "projects": [
             {
@@ -26930,7 +26964,7 @@
                 "unique_id": 1546
             }
         ],
-        "reduction_state": "notstarted",
+        "reduction_state": "complete",
         "run_date": "2025-10-16T20:35:48"
     },
     {
@@ -37915,7 +37949,20 @@
     {
         "comment": "",
         "name": "D0247",
-        "projects": [],
+        "projects": [
+            {
+                "name": "Cardona",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1543
+            },
+            {
+                "name": "HenriquezS",
+                "reduction_state": "complete",
+                "samples": [],
+                "unique_id": 1544
+            }
+        ],
         "reduction_state": "notstarted",
         "run_date": "2025-11-06T09:54:04"
     },
