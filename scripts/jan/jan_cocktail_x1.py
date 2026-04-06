@@ -9,6 +9,7 @@ def main():
     info("Jan Cocktail Pipette x1")
     gosub('jan:WaitForMiniboneAccess')
     gosub('jan:PrepareForAirShot')
+    close(name="Q", description="Quad Inlet")
     gosub('jan:EvacPipette1')
     gosub('common:FillPipette1')
     gosub('jan:PrepareForAirShotExpansion')

@@ -13,6 +13,7 @@ def main():
     gosub('jan:EvacPipette2')
     gosub('common:FillPipette2')
     gosub('jan:PrepareForAirShotExpansion')
+    gosub('common:ExpandPipette2')
     gosub('common:SniffPipette2')
 
 #===============================================================================
