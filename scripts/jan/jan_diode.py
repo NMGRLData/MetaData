@@ -19,7 +19,7 @@ def main():
     keep pumping bone while cold finger isolated
     '''
     
-    open(description='Bone to Turbo')
+    open(name="C", description="Bone to Turbo")
   
     if analysis_type=='blank':
         info('Blank Analyis. No laser heating')
@@ -59,8 +59,7 @@ def main():
     close Minibone to Bone to speed equilibration time
     then start pumping Bone
     '''
-    close(description='Minibone to Bone')
-    gosub('jan:PumpBoneAfterDiodeAnalysis')
+    close(name="I", description="Minibone to Bone")
    
 
 def do_extraction():
