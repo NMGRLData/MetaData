@@ -19,7 +19,7 @@ def main():
     keep pumping bone while cold finger isolated
     '''
     
-    open(description='Bone to Turbo')
+    open(name="C", description="Bone to Turbo")
   
     if analysis_type=='blank':
         info('Blank Analyis. No laser heating')
