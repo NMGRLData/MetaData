@@ -59,8 +59,7 @@ def main():
     close Minibone to Bone to speed equilibration time
     then start pumping Bone
     '''
-    close(description='Minibone to Bone')
-    gosub('jan:PumpBoneAfterDiodeAnalysis')
+    close(name="I", description="Minibone to Bone")
    
 
 def do_extraction():
