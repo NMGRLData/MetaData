@@ -6,7 +6,7 @@ baseline:
   counts: 20
   detector: H2
   mass: 39.862
-  settling_time: 10.0
+  settling_time: 1.0
 default_fits: nominal
 equilibration:
   eqtime: 1.0
@@ -15,7 +15,7 @@ equilibration:
   outlet: V
   use_extraction_eqtime: true
 multicollect:
-  counts: 60
+  counts: 30
   detector: L2(CDD)
   isotope: Ar36
 peakcenter:
