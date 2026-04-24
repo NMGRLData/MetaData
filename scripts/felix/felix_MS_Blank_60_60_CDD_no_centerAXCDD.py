@@ -15,7 +15,7 @@ equilibration:
   outlet: V
   use_extraction_eqtime: true
 multicollect:
-  counts: 180
+  counts: 60
   detector: L2(CDD)
   isotope: Ar36
 peakcenter:
@@ -26,10 +26,12 @@ peakcenter:
   - H2
   - AX(CDD)
   - L2(CDD)
-  isotope: Ar36
   integration_time: 1.048576
+  isotope: Ar36
 peakhop:
+  generate_ic_table: false
   hops_name: ''
+  ncycles: 0
   use_peak_hop: false
 '''
 ACTIVE_DETECTORS=('H2','H1','AX(CDD)','L1','L2(CDD)')
