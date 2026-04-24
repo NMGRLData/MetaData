@@ -3,15 +3,15 @@
 baseline:
   after: true
   before: false
-  counts: 45
+  counts: 20
   detector: H2
   mass: 39.862
-  settling_time: 15.0
+  settling_time: 10.0
 default_fits: nominal
 equilibration:
   eqtime: 1.0
   inlet: H
-  inlet_delay: 3
+  inlet_delay: 1
   outlet: V
   use_extraction_eqtime: true
 multicollect:
