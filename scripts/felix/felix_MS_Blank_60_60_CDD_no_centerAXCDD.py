@@ -15,7 +15,7 @@ equilibration:
   outlet: V
   use_extraction_eqtime: false
 multicollect:
-  counts: 30
+  counts: 20
   detector: L2(CDD)
   isotope: Ar36
 peakcenter:
