@@ -9,11 +9,11 @@ baseline:
   settling_time: 1.0
 default_fits: nominal
 equilibration:
-  eqtime: 1.0
+  eqtime: 5.0
   inlet: H
   inlet_delay: 1
   outlet: V
-  use_extraction_eqtime: true
+  use_extraction_eqtime: false
 multicollect:
   counts: 30
   detector: L2(CDD)
