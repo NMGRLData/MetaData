@@ -80,7 +80,7 @@ def main():
         activate_detectors(*mx.peakcenter.detectors, **{'peak_center':True})
         peak_center(detector=mx.peakcenter.detector,isotope=mx.peakcenter.isotope, 
                     integration_time=mx.peakcenter.integration_time,
-                    config_name='default')
+                    config_name='CDD_on_36')
 
     if use_cdd_warming:
        gosub('warm_cdd', argv=(mx.equilibration.outlet,))    
