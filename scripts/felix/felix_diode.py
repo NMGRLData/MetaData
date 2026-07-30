@@ -15,8 +15,8 @@ def main():
     gosub('felix:PrepareForDiodeAnalysis')
 
 
-    close(name="C", description="Bone to Turbo")
-
+    close(name="C", description="Bone to Turbo")  
+    close(name="I", description="Minibone to Bone")
     close(name="D", description="Bone to CO2 Laser")
     close(name="E", description="Bone to Minibone")
 
