@@ -1,12 +1,5 @@
 #!Measurement
 '''
-baseline:
-  after: false
-  before: false
-  counts: 45
-  detector: H2
-  mass: 39.862
-  settling_time: 15.0
 default_fits: nominal
 equilibration:
   eqtime: 1.0
@@ -15,17 +8,16 @@ equilibration:
   outlet: V
   use_extraction_eqtime: true
 multicollect:
-  counts: 180
+  counts: 60
   detector: L2(CDD)
   isotope: Ar36
 peakcenter:
-  after: true
+  after: false
   before: false
   detector: L2(CDD)
   detectors:
   - H2
-  - AX
-  - L1
+  - AX(CDD)
   - L2(CDD)
   isotope: Ar36
   integration_time: 1.048576
@@ -33,7 +25,7 @@ peakhop:
   hops_name: ''
   use_peak_hop: false
 '''
-ACTIVE_DETECTORS=('H2','H1','AX','L1','L2(CDD)')
+ACTIVE_DETECTORS=('H2','H1','AX(CDD)','L1','L2(CDD)')
     
 def main():
     info('unknown measurement script')
@@ -44,9 +36,6 @@ def main():
     if mx.peakcenter.before:
         peak_center(detector=mx.peakcenter.detector,isotope=mx.peakcenter.isotope)
     
-    if mx.baseline.before:
-        baselines(ncounts=mx.baseline.counts,mass=mx.baseline.mass, detector=mx.baseline.detector,
-                  settling_time=mx.baseline.settling_time)
     
     position_magnet(mx.multicollect.isotope, detector=mx.multicollect.detector)
 
@@ -70,12 +59,7 @@ def main():
     #multicollect on active detectors
     multicollect(ncounts=mx.multicollect.counts, integration_time=1.048576)
     
-    if mx.baseline.after:
-        #set_integration_time(4.194)
-        baselines(ncounts=mx.baseline.counts,mass=mx.baseline.mass, detector=mx.baseline.detector, 
-                  settling_time=mx.baseline.settling_time)
-        #set_integration_time(1.049)
-        
+  
     if mx.peakcenter.after:
         activate_detectors(*mx.peakcenter.detectors, **{'peak_center':True})
         peak_center(detector=mx.peakcenter.detector,isotope=mx.peakcenter.isotope, 

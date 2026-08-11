@@ -24,7 +24,7 @@ peakcenter:
   detector: L2(CDD)
   detectors:
   - H2
-  - AX(CDD)
+  - AX
   - L2(CDD)
   isotope: Ar36
   integration_time: 1.048576
@@ -32,7 +32,7 @@ peakhop:
   hops_name: ''
   use_peak_hop: false
 '''
-ACTIVE_DETECTORS=('H2','H1','AX(CDD)','L1','L2(CDD)')
+ACTIVE_DETECTORS=('H2','H1','AX','L1','L2(CDD)')
     
 def main():
     info('unknown measurement script')
@@ -79,7 +79,7 @@ def main():
         activate_detectors(*mx.peakcenter.detectors, **{'peak_center':True})
         peak_center(detector=mx.peakcenter.detector,isotope=mx.peakcenter.isotope, 
                     integration_time=mx.peakcenter.integration_time,
-                    config_name='default')
+                    config_name='CDD_on_36')
 
     if use_cdd_warming:
        gosub('warm_cdd', argv=(mx.equilibration.outlet,))    
