@@ -24,7 +24,7 @@ peakcenter:
   detector: L2(CDD)
   detectors:
   - H2
-  - AX(CDD)
+  - AX
   - L1
   - L2(CDD)
   isotope: Ar36
