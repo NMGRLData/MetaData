@@ -24,7 +24,7 @@ peakcenter:
   detector: L2(CDD)
   detectors:
   - H2
-  - AX(CDD)
+  - AX
   - L1
   - L2(CDD)
   isotope: Ar36
@@ -33,7 +33,7 @@ peakhop:
   hops_name: ''
   use_peak_hop: false
 '''
-ACTIVE_DETECTORS=('H2','H1','AX(CDD)','L1','L2(CDD)')
+ACTIVE_DETECTORS=('H2','H1','AX','L1','L2(CDD)')
     
 def main():
     info('unknown measurement script')
