@@ -17,7 +17,7 @@ peakcenter:
   detector: L2(CDD)
   detectors:
   - H2
-  - AX(CDD)
+  - AX
   - L2(CDD)
   isotope: Ar36
   integration_time: 1.048576
