@@ -25,7 +25,7 @@ peakhop:
   hops_name: ''
   use_peak_hop: false
 '''
-ACTIVE_DETECTORS=('H2','H1','AX(CDD)','L1','L2(CDD)')
+ACTIVE_DETECTORS=('H2','H1','AX','L1','L2(CDD)')
     
 def main():
     info('unknown measurement script')
