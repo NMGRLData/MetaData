@@ -1,12 +1,5 @@
 #!Measurement
 '''
-baseline:
-  after: false
-  before: false
-  counts: 0
-  detector: ''
-  mass: 0.0
-  settling_time: 0.0
 default_fits: nominal
 equilibration:
   eqtime: 1.0
@@ -26,14 +19,10 @@ peakcenter:
   - H2
   - AX
   - L2(CDD)
-  - L1
-  - H1
-  integration_time: 1.048576
   isotope: Ar36
+  integration_time: 1.048576
 peakhop:
-  generate_ic_table: false
   hops_name: ''
-  ncycles: 0
   use_peak_hop: false
 '''
 ACTIVE_DETECTORS=('H2','H1','AX','L1','L2(CDD)')
