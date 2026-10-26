@@ -36,7 +36,7 @@ peakhop:
 ACTIVE_DETECTORS=('H2','H1','AX','L1','L2','CDD')
 
 def main():
-    info('unknown measurement script')
+    info('starting analysis')
 
     activate_detectors(*ACTIVE_DETECTORS)
 
