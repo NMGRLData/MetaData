@@ -19,7 +19,7 @@ def main():
         during a multiple position analysis
         '''
         close(description='Bone to Turbo')
-        #close('T')
+        close('T')
         sleep(2)
         open('F')
         sleep(2)
